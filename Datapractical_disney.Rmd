@@ -1,12 +1,12 @@
 ---
 title: "Datapractical_disney"
-output: html_document
+output: github_document
 date: "2022-11-23"
 ---
-![](guillermo-gr-mvabCiq4LBY-unsplash.jpg)
+![](pexels-benjamin-suter-2362002.jpg)
 
 ## Introduction 
-Disney movies are know across the world. It is for that reason that we can to understand *why* diney movies are so famous and engender so much money.
+Disney movies are know across the world. It is for that reason that we can to understand *why* disney movies are so famous and engender so much money.
 
 
 
