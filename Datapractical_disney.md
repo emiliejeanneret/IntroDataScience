@@ -5,7 +5,7 @@ Jeanneret Emilie
 
 <div align="center">
 
-<img src="pexels-benjamin-suter-2362002.jpg" style="width:50.0%" />
+<img src="pexels-benjamin-suter-2362002.jpg" style="width:30.0%" />
 
 <div align="left">
 
