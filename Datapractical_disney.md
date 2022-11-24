@@ -1,49 +1,65 @@
-Datapractical_disney
+Disney movies, a money question
 ================
+Jeanneret Emilie
 2022-11-23
 
-![](pexels-benjamin-suter-2362002.jpg)
+- <a href="#introduction" id="toc-introduction">Introduction</a>
+  - <a href="#research-question" id="toc-research-question">Research
+    question</a>
+  - <a href="#hypothesis" id="toc-hypothesis">Hypothesis</a>
+- <a href="#data" id="toc-data">Data</a>
+- <a href="#analysis" id="toc-analysis">Analysis</a>
+- <a href="#conclusion" id="toc-conclusion">Conclusion</a>
 
-## Introduction
+<div align="center">
 
-Disney movies are know across the world. It is for that reason that we
-can to understand *why* disney movies are so famous and engender so much
-money.
+<img src="pexels-benjamin-suter-2362002.jpg" style="width:50.0%" />
+
+<div align="left">
+
+# Introduction
+
+Have you ever seen a Disney movie ? I am sure that you cannot respond
+“no” to that question. If you really never have seen one, I bet that you
+know the worldwide famous mouse (of course I am speaking of Mickey
+Mouse). And this is because [The Walt Disney
+Company](https://fr.wikipedia.org/wiki/The_Walt_Disney_Company) is,
+since 2012, the first group of entertainment across the world ! Now
+talking a little bit about the history of this company, we know that is
+has been created in 1923 (100 years next year ! **woaw**). The founders
+are Roy and Walter Disney, but the latter is the main character in the
+Disney history.
+
+They create many types of movie and you can easily find your way through
+it. Indeed, it’s adapted to the whole family. The number of movies they
+produced is about *529*, that is huge ! [The
+list](https://www.imdb.com/list/ls033609554/) of all movie would take
+quite a lot of time to go through but the main element we are interested
+in in this research are the income of each movie, and the genre of each
+movie.
+
+## Research question
+
+This research is interested in the evolution of incomings of Disney
+movies through time. We also want to see is there is an impact of the
+genre of movie on the income they engender. Of course, we will need to
+adapt the table with inflation rate in order to adapt our data. The main
+question here is **Is there an impact of the genre of Disney movies
+incomings over time ?**
+
+## Hypothesis
+
+<div align="center">
+
+N0: There is no impact of the genre on the incoming
+
+<div align="center">
+
+N1: There is an impact of the genre on the incoming
+
+<div align="left">
 
 # Data
-
-``` r
-library(tidyverse)
-```
-
-    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-    ## ✔ ggplot2 3.3.6      ✔ purrr   0.3.4 
-    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-    ## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-    ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-
-``` r
-total_gross <- read.csv("disney_movies_total_gross.csv")
-head(total_gross)
-```
-
-    ##   index                     movie_title release_date     genre MPAA_rating
-    ## 1     0 Snow White and the Seven Dwarfs Dec 21, 1937   Musical           G
-    ## 2     1                       Pinocchio  Feb 9, 1940 Adventure           G
-    ## 3     2                        Fantasia Nov 13, 1940   Musical           G
-    ## 4     3               Song of the South Nov 12, 1946 Adventure           G
-    ## 5     4                      Cinderella Feb 15, 1950     Drama           G
-    ## 6     5    20,000 Leagues Under the Sea Dec 23, 1954 Adventure            
-    ##    total_gross inflation_adjusted_gross
-    ## 1 $184,925,485           $5,228,953,251
-    ## 2  $84,300,000           $2,188,229,052
-    ## 3  $83,320,000           $2,187,090,808
-    ## 4  $65,000,000           $1,078,510,579
-    ## 5  $85,000,000             $920,608,730
-    ## 6  $28,200,000             $528,279,994
 
 # Analysis
 
