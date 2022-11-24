@@ -1,9 +1,7 @@
 ---
 title: "Disney movies, a money question"
 author: Jeanneret Emilie
-output: 
-  github_document:
-   toc: true
+output: github_document
 date: "2022-11-23"
 ---
 

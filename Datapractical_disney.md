@@ -3,14 +3,6 @@ Disney movies, a money question
 Jeanneret Emilie
 2022-11-23
 
-- <a href="#introduction" id="toc-introduction">Introduction</a>
-  - <a href="#research-question" id="toc-research-question">Research
-    question</a>
-  - <a href="#hypothesis" id="toc-hypothesis">Hypothesis</a>
-- <a href="#data" id="toc-data">Data</a>
-- <a href="#analysis" id="toc-analysis">Analysis</a>
-- <a href="#conclusion" id="toc-conclusion">Conclusion</a>
-
 <div align="center">
 
 <img src="pexels-benjamin-suter-2362002.jpg" style="width:50.0%" />
