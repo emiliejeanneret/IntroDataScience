@@ -32,7 +32,6 @@ This research is interested in the evolution of incomings of Disney movies throu
 ```{r, include=FALSE}
 library(tidyverse)
 total_gross <- read.csv("disney_movies_total_gross.csv")
-head(total_gross)
 ```
 
 # Analysis
