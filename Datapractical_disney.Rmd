@@ -37,9 +37,18 @@ N1: There is an impact of the genre on the incoming
 
 ```{r, include=FALSE}
 library(tidyverse)
-total_gross <- read.csv("disney_movies_total_gross.csv")
+read.csv("disney_movies_total_gross.csv", sep=";")
+df <- read.csv("disney_movies_total_gross.csv", sep=";")
+release_month <- df$release_month
+genre<- df$genre
 ```
 
 # Analysis
+```{r, include=FALSE}
+library(ggplot2)
+ggplot(df, aes(genre, release_month)) +
+  geom_tile()
+```
+
 
 # Conclusion
