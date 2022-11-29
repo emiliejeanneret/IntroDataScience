@@ -13,7 +13,11 @@ date: "2022-11-23"
 
 # Introduction
 
-Have you ever seen a Disney movie ? I am sure that you cannot respond "no" to that question. If you really never have seen one, I bet that you know the worldwide famous mouse (of course I am speaking of Mickey Mouse). And this is because [The Walt Disney Company](https://fr.wikipedia.org/wiki/The_Walt_Disney_Company) is, since 2012, the first group of entertainment across the world ! Now talking a little bit about the history of this company, we know that is has been created in 1923 (100 years next year ! **woaw**). The founders are Roy and Walter Disney, but the latter is the main character in the Disney history.
+Have you ever seen a Disney movie ? I am sure that you cannot respond "no" to that question. If you really never have seen one, I bet that you know the worldwide famous mouse (of course I am speaking of Mickey Mouse).
+
+![](giphy.gif)
+
+And this is because [The Walt Disney Company](https://fr.wikipedia.org/wiki/The_Walt_Disney_Company) is, since 2012, the first group of entertainment across the world ! Now talking a little bit about the history of this company, we know that is has been created in 1923 (100 years next year ! **woaw**). The founders are Roy and Walter Disney, but the latter is the main character in the Disney history.
 
 They create many types of movie and you can easily find your way through it. Indeed, it's adapted to the whole family. The number of movies they produced is about *529*, that is huge ! [The list](https://www.imdb.com/list/ls033609554/) of all movie would take quite a lot of time to go through but the main element we are interested in in this research are the income of each movie, and the genre of each movie.
 
@@ -35,20 +39,59 @@ N1: There is an impact of the genre on the incoming
 
 # Data
 
+The data comes from [kaggle](https://www.kaggle.com), where was hidden a [very interesting dataset](https://www.kaggle.com/datasets/prateekmaj21/disney-movies) about disney movies. For this research, we do not need every details and every lines, even if that would be very interesting to analyze.
+
 ```{r, include=FALSE}
+
 library(tidyverse)
 read.csv("disney_movies_total_gross.csv", sep=";")
 df <- read.csv("disney_movies_total_gross.csv", sep=";")
-release_month <- df$release_month
-genre<- df$genre
+release_month <- as.factor(df$release_month)
+genre_factor <- as.factor(df$genre)
+str(df)
+
 ```
+
+As we can see in the following chunck, the main table is displaying in the following way :
+
+```{r}
+head(df)
+nrow(df)
+```
+
+Here, the only columns that we are interested in are the movie title (obviously), the release date (which includes month, day and year), the genre and the gross (as well as the inflation adjusted gross in order to compare (up to date) movies). There is 579 rows, each corresponding to one country.
 
 # Analysis
-```{r, include=FALSE}
+
+The first thing we want to look at in this analysis is about the genre. How many movies from each genre is in our dataset ?
+
+```{r, results=FALSE}
 library(ggplot2)
-ggplot(df, aes(genre, release_month)) +
-  geom_tile()
+library(dplyr)
+df <- within(df, 
+             genre <- factor(genre, 
+                             levels=names(sort(table(genre), 
+                                            decreasing=TRUE))))
+ggplot(df, aes(x=genre, color=genre)) +
+  geom_bar() +
+  coord_flip() +
+  xlab("Genre of movie") +
+  ylab("Number of movies")
+```
+Aswe can see in this first barplot is that there are three main genre of movies that are produced by Disney. Namely **comedy**, **adventure** and **drama**. Other genre of movies are much less produces as we can see on the graph. This is an overall view of disney movies production since they stared. 
+
+The following part of this analyze concerns only the revenue of those movies, over the entire period of movies production from disney company. 
+
+```{r}
+
+ggplot(df, aes(x=release_date, y=total_gross)) +
+  geom_line()
+
 ```
 
+```{r}
+ggplot(df, aes(x=genre, y=release_month)) +
+  geom_tile()
+```
 
 # Conclusion
