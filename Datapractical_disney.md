@@ -103,13 +103,16 @@ The first thing we want to look at in this analysis is about the genre.
 How many movies from each genre is in our dataset ?
 
 ``` r
+library(tidyr)
+df_clean <- df[!df$genre=="",]
 library(ggplot2)
 library(dplyr)
-df <- within(df, 
+df_clean <- within(df_clean, 
              genre <- factor(genre, 
                              levels=names(sort(table(genre), 
                                             decreasing=TRUE))))
-ggplot(df, aes(x=genre, color=genre)) +
+library(ggplot2)
+ggplot(df_clean, aes(x=genre, color=genre)) +
   geom_bar() +
   coord_flip() +
   xlab("Genre of movie") +
@@ -127,6 +130,9 @@ The following part of this analyze concerns only the revenue of those
 movies, over the entire period of movies production from disney company.
 
 ``` r
+library(tidyr)
+
+
 ggplot(df, aes(x=release_date, y=total_gross)) +
   geom_line()
 ```
