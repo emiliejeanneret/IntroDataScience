@@ -50,24 +50,29 @@ release_month <- as.factor(df$release_month)
 genre_factor <- as.factor(df$genre)
 str(df)
 
+library(tidyr)
+df_clean0 <- df[!df$genre=="",]
+df_clean <- drop_na(df_clean0)
+
 ```
 
-As we can see in the following chunck, the main table is displaying in the following way :
+As we can see below, the main data table is displaying in the following way
 
-```{r}
-head(df)
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+require(knitr)
+kable(df[1:5,], caption ="Data table")
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 nrow(df)
 ```
-
-Here, the only columns that we are interested in are the movie title (obviously), the release date (which includes month, day and year), the genre and the gross (as well as the inflation adjusted gross in order to compare (up to date) movies). There is 579 rows, each corresponding to one country.
 
 # Analysis
 
 The first thing we want to look at in this analysis is about the genre. How many movies from each genre is in our dataset ?
 
-```{r, results=FALSE}
-library(tidyr)
-df_clean <- df[!df$genre=="",]
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
 library(ggplot2)
 library(dplyr)
 df_clean <- within(df_clean, 
@@ -75,28 +80,90 @@ df_clean <- within(df_clean,
                              levels=names(sort(table(genre), 
                                             decreasing=TRUE))))
 library(ggplot2)
-ggplot(df_clean, aes(x=genre, color=genre)) +
+ggplot(df_clean, aes(x=genre, color = genre)) +
   geom_bar() +
   coord_flip() +
   xlab("Genre of movie") +
   ylab("Number of movies")
 ```
-Aswe can see in this first barplot is that there are three main genre of movies that are produced by Disney. Namely **comedy**, **adventure** and **drama**. Other genre of movies are much less produces as we can see on the graph. This is an overall view of disney movies production since they stared. 
 
-The following part of this analyze concerns only the revenue of those movies, over the entire period of movies production from disney company. 
+As we can see in this first barplot is that there are three main genre of movies that are produced by Disney. Namely **comedy**, **adventure** and **drama**. Other genre of movies are much less produces as we can see on the graph. This is an overall view of disney movies production since they stared.
 
-```{r}
+The following part of this analyze concerns only the revenue of those movies, over the entire period of movies production from disney company.This start from the first movie produced, namely *Snow White and the Seven Dwarfs* in 1937, until the last *The Light Between Oceans* in 2016. Both of those graphs are showing the mean revenue of each year of movie production. The absent datas were taken off.
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+group_year1 <- aggregate(x=df$total_gross,
+                        by = list(df$release_year),
+                        FUN=mean)
+names(group_year1)[1] <- "year"
+names(group_year1)[2] <- "mean_revenue"
+
 library(tidyr)
+group_year_clean1 <- drop_na(group_year1)
 
-
-ggplot(df, aes(x=release_date, y=total_gross)) +
-  geom_line()
+library(ggplot2)
+ggplot(group_year_clean1, aes(x=year, y=mean_revenue)) +
+  geom_line() +
+  scale_y_continuous(labels = scales::label_number_si()) +
+  ggtitle("Mean of revenue of disney movies (not inflation adjusted)") +
+  xlab("Year") +
+  ylab("Revenue in millions")
+  
 
 ```
 
-```{r}
-ggplot(df, aes(x=genre, y=release_month)) +
-  geom_tile()
+This first graph is about the raw/gross revenu of each movie, since it came out. In the second graph below, the amount of money generated are adjusted in term of inflation. This is important because without that you cannot really compare the first and the last movie, because of the years gap between them.
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+group_year2 <- aggregate(x=df$inflation_adjusted_gross,
+                        by = list(df$release_year),
+                        FUN=mean)
+names(group_year2)[1] <- "year"
+names(group_year2)[2] <- "mean_revenue"
+
+library(tidyr)
+group_year_clean2 <- drop_na(group_year2)
+
+library(ggplot2)
+ggplot(group_year_clean2, aes(x=year, y=mean_revenue)) +
+  geom_line()+
+  scale_y_continuous(labels = scales::label_number_si()) +
+   ggtitle("Mean of revenue of disney movies (inflation adjusted)") +
+  xlab("Year") +
+  ylab("Revenue in billions")
 ```
 
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
+library(ggplot2)
+df_clean %>%
+  mutate(class = fct_reorder(genre, total_gross, .fun = "median")) %>%
+ggplot(aes(x=reorder(genre, total_gross), y=total_gross, fill = genre)) +
+  geom_boxplot() +
+  scale_y_continuous(labels = scales::label_number_si()) +
+  coord_flip() +
+  theme(legend.position = "none") +
+  ggtitle("Distribution or revenue by genre") +
+  xlab("Genre") +
+  ylab("Revenue, not inflation adjusted")
+  
+```
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+df_clean %>%
+  mutate(class = fct_reorder(genre, inflation_adjusted_gross, .fun = "median")) %>%
+ggplot(aes(x=reorder(genre, inflation_adjusted_gross), y=inflation_adjusted_gross, fill = genre)) +
+  geom_boxplot() +
+  scale_y_continuous(labels = scales::label_number_si()) +
+  coord_flip() +
+  theme(legend.position = "none") +
+  ggtitle("Distribution or revenue by genre") +
+  xlab("Genre") +
+  ylab("Revenue, inflation adjusted")
+```
+
+The last part of this analysis will consist on a regression analysis. To see if there's a correlation between the genre of movie and the revenue of those genre. 
 # Conclusion
+
+# References

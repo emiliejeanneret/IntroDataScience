@@ -1,580 +1,580 @@
-movie_title;release_month;release_date;genre;MPAA_rating;total_gross;inflation_adjusted_gross
-Snow White and the Seven Dwarfs;December;Dec 21, 1937;Musical;G;$184,925,485;$5,228,953,251
-Pinocchio;February;Feb 9, 1940;Adventure;G;$84,300,000;$2,188,229,052
-Fantasia;November;Nov 13, 1940;Musical;G;$83,320,000;$2,187,090,808
-Song of the South;November;Nov 12, 1946;Adventure;G;$65,000,000;$1,078,510,579
-Cinderella;February;Feb 15, 1950;Drama;G;$85,000,000;$920,608,730
-20,000 Leagues Under the Sea;December;Dec 23, 1954;Adventure;;$28,200,000;$528,279,994
-Lady and the Tramp;June;Jun 22, 1955;Drama;G;$93,600,000;$1,236,035,515
-Sleeping Beauty;January ;Jan 29, 1959;Drama;;$9,464,608;$21,505,832
-101 Dalmatians;January ;Jan 25, 1961;Comedy;G;$153,000,000;$1,362,870,985
-The Absent Minded Professor;March;Mar 16, 1961;Comedy;;$25,381,407;$310,094,574
-Babes in Toyland;December;Dec 14, 1961;Musical;G;$10,218,316;$124,841,160
-Bon Voyage!;May;May 17, 1962;Comedy;Not Rated;$9,230,769;$109,581,646
-The Sword in the Stone;December;Dec 25, 1963;Adventure;;$22,182,353;$153,870,834
-The Jungle Book;October;Oct 18, 1967;Musical;Not Rated;$141,843,000;$789,612,346
-Blackbeard's Ghost;February;Feb 8, 1968;Comedy;;$21,540,050;$138,612,686
-The Aristocats;April;Apr 24, 1970;Musical;G;$55,675,257;$255,161,499
-The Boatniks;July;Jul 1, 1970;Comedy;;$18,607,492;$101,200,742
-Bedknobs and Broomsticks;October;Oct 7, 1971;Musical;;$17,871,174;$91,305,448
-The Apple Dumpling Gang;July;Jul 1, 1975;Comedy;;$31,916,500;$131,246,872
-Freaky Friday;January ;Jan 21, 1977;Comedy;;$25,942,000;$98,067,733
-The Many Adventures of Winnie the Pooh;March;Mar 11, 1977;;;0.00 $;0.00 $
-The Rescuers;June;Jun 22, 1977;Adventure;;$48,775,599;$159,743,914
-Herbie Goes to Monte Carlo;June;Jun 24, 1977;;;$28,000,000;$105,847,527
-The Black Hole;December;Dec 21, 1979;;;$35,841,901;$120,377,374
-Midnight Madness;February;Feb 8, 1980;;;$2,900,000;$9,088,096
-The Last Flight of Noah’s Ark;June;Jun 25, 1980;;;$11,000,000;$34,472,116
-The Devil and Max Devlin;January ;Jan 1, 1981;;;$16,000,000;$48,517,980
-Amy;March;Mar 20, 1981;Drama;;0.00 $;0.00 $
-The Fox and the Hound;July;Jul 10, 1981;Comedy;;$43,899,231;$133,118,889
-Condorman;August;Aug 7, 1981;Action;;0.00 $;0.00 $
-Night Crossing;February;Feb 5, 1982;Drama;;$4,500,000;$12,903,059
-Tron;July;Jul 9, 1982;Action;;$26,918,576;$77,184,895
-Tex;November;Nov 19, 1982;Drama;;$7,199,408;$20,643,199
-Trenchcoat;March;Mar 11, 1983;Comedy;;$4,304,286;$11,519,089
-Something Wicked This Way Comes;April;Apr 29, 1983;Horror;;$5,656,087;$15,136,765
-Never Cry Wolf;October;Oct 7, 1983;Drama;;$27,668,764;$70,669,955
-Running Brave;November;Nov 4, 1983;Drama;;$1,204,595;$3,223,725
-Splash;March;Mar 9, 1984;Comedy;PG;$62,599,495;$157,057,661
-Country;September;Sep 29, 1984;Drama;;$8,400,000;$21,075,000
-Baby: Secret of the Lost Legend;March;Mar 22, 1985;Adventure;;$14,276,095;$33,900,697
-Return to Oz;June;Jun 21, 1985;Adventure;;$10,618,813;$25,215,934
-The Black Cauldron;July;Jul 24, 1985;Adventure;;$21,288,692;$50,553,142
-My Science Project;August;Aug 9, 1985;Comedy;;$4,100,000;$9,736,051
-The Journey of Natty Gann;September;Sep 27, 1985;Drama;;$9,468,512;$22,302,956
-One Magic Christmas;November;Nov 22, 1985;Drama;;$13,229,514;$31,415,432
-Down and Out in Beverly Hills;January ;Jan 31, 1986;Comedy;R;$62,134,225;$141,183,693
-Off Beat;April;Apr 11, 1986;Comedy;;$4,842,778;$11,003,932
-Ruthless People;June;Jun 27, 1986;Comedy;R;$71,624,879;$162,748,712
-The Great Mouse Detective;July;Jul 2, 1986;Adventure;;$23,605,534;$53,637,367
-Flight of the Navigator;July;Jul 30, 1986;Adventure;;$18,564,613;$42,183,197
-Tough Guys;October;Oct 3, 1986;Comedy;;$21,458,229;$48,758,184
-The Color of Money;October;Oct 17, 1986;Drama;R;$52,293,000;$117,957,323
-Outrageous Fortune;January ;Jan 30, 1987;Comedy;R;$52,864,741;$113,976,921
-Tin Men;March;Mar 6, 1987;Comedy;;$25,411,386;$54,787,202
-Ernest Goes to Camp;May;May 22, 1987;Comedy;;$23,509,382;$50,686,462
-Benji the Hunted;June;Jun 5, 1987;Adventure;;$15,212,539;$32,798,382
-Adventures in Babysitting;July;Jul 3, 1987;Comedy;;$33,790,923;$72,853,569
-Stakeout;August;Aug 5, 1987;Comedy;R;$65,673,233;$141,592,160
-Can't Buy Me Love;August;Aug 14, 1987;Romantic Comedy;;$31,623,833;$68,181,300
-Hello Again;November;Nov 6, 1987;Comedy;;$20,419,446;$44,024,529
-3 Men and a Baby;November;Nov 25, 1987;Comedy;PG;$167,780,960;$353,334,607
-Good Morning Vietnam;December;Dec 23, 1987;Comedy;R;$123,922,370;$254,414,837
-Shoot to Kill;February;Feb 12, 1988;Action;;$29,300,000;$60,097,074
-D.O.A.;March;Mar 18, 1988;Thriller/Suspense;;$12,706,478;$26,062,188
-Return to Snowy River;April;Apr 15, 1988;Adventure;PG;$13,687,027;$28,073,384
-Big Business;June;Jun 10, 1988;Comedy;PG;$40,150,487;$82,352,451
-Who Framed Roger Rabbit?;June;Jun 22, 1988;Comedy;PG;$154,112,492;$316,250,084
-Cocktail;July;Jul 29, 1988;Drama;R;$78,222,753;$160,442,289
-The Rescue;August;Aug 5, 1988;Action;;$5,855,392;$12,009,960
-Heartbreak Hotel;September;Sep 30, 1988;Comedy;;$5,509,417;$11,300,331
-The Good Mother;November;Nov 4, 1988;Drama;;$4,764,606;$9,772,655
-Ernest Saves Christmas;November;Nov 11, 1988;Comedy;PG;$28,202,109;$57,845,202
-Oliver & Company;November;Nov 18, 1988;Adventure;G;$49,576,671;$102,254,492
-Beaches;December;Dec 21, 1988;Drama;PG-13;$57,041,866;$120,381,757
-Three Fugitives;January ;Jan 27, 1989;Comedy;PG-13;$40,590,000;$85,757,817
-New York Stories;March;Mar 1, 1989;Drama;PG;$10,763,469;$22,740,861
-Disorganized Crime;April;Apr 14, 1989;Comedy;;$7,210,149;$15,233,465
-Dead Poets Society;June;Jun 2, 1989;Drama;PG;$95,860,116;$202,531,517
-Honey, I Shrunk the Kids;June;Jun 23, 1989;Adventure;PG;$130,724,172;$276,191,669
-Turner & Hooch;July;Jul 28, 1989;Comedy;PG;$71,079,915;$150,176,361
-Cheetah;August;Aug 18, 1989;Adventure;;$7,882,250;$16,653,473
-An Innocent Man;October;Oct 6, 1989;Drama;R;$19,397,847;$40,983,414
-Gross Anatomy;October;Oct 20, 1989;Drama;PG-13;$11,346,186;$23,972,012
-The Little Mermaid;November;Nov 15, 1989;Adventure;G;$111,543,479;$223,726,012
-Blaze;December;Dec 13, 1989;Drama;R;$19,049,727;$39,884,640
-Stella;February;Feb 2, 1990;Drama;PG-13;$20,062,347;$40,077,147
-Where the Heart Is;February;Feb 23, 1990;Comedy;;$1,106,475;$2,210,321
-Pretty Woman;March;Mar 23, 1990;Romantic Comedy;R;$178,406,268;$356,389,765
-Ernest Goes to Jail;April;Apr 6, 1990;Comedy;PG;$25,029,569;$49,999,822
-Spaced Invaders;April;Apr 27, 1990;Comedy;PG;$15,000,000;$29,964,452
-Fire Birds;May;May 24, 1990;Action;PG-13;$14,760,451;$29,485,923
-Dick Tracy;June;Jun 15, 1990;Action;PG;$103,738,726;$207,231,621
-Betsy's Wedding;June;Jun 22, 1990;Comedy;R;$19,740,070;$39,433,357
-Arachnophobia;July;Jul 18, 1990;Thriller/Suspense;PG-13;$53,208,180;$106,290,270
-DuckTales: The Movie - Treasure of th…;August;Aug 3, 1990;Adventure;G;$18,075,331;$36,107,823
-Taking Care of Business;August;Aug 17, 1990;Comedy;R;$20,005,435;$39,963,460
-Mr. Destiny;October;Oct 12, 1990;Comedy;PG-13;$15,379,253;$30,722,056
-The Rescuers Down Under;November;Nov 16, 1990;Adventure;G;$27,931,461;$55,796,728
-3 Men and a Little Lady;November;Nov 21, 1990;Comedy;PG;$71,609,321;$143,108,869
-Green Card;December;Dec 25, 1990;Romantic Comedy;PG-13;$29,804,169;$59,679,131
-White Fang;January ;Jan 18, 1991;Adventure;PG;$34,729,091;$69,540,672
-Scenes from a Mall;February;Feb 22, 1991;Comedy;;$9,563,393;$19,149,495
-Haakon Haakonsen;March;Mar 1, 1991;Adventure;PG;$15,024,232;$30,084,149
-The Marrying Man;April;Apr 5, 1991;Romantic Comedy;R;$12,454,768;$24,939,118
-Oscar;April;Apr 26, 1991;Comedy;PG;$23,562,716;$47,181,395
-One Good Cop;May;May 3, 1991;Action;R;$11,276,846;$22,580,472
-What About Bob?;May;May 17, 1991;Comedy;PG;$63,710,000;$127,571,325
-Wild Hearts Can't Be Broken;May;May 24, 1991;Drama;;$7,300,000;$14,617,333
-The Rocketeer;June;Jun 21, 1991;Action;PG;$46,573,027;$93,256,673
-The Doctor;July;Jul 24, 1991;Drama;PG-13;$37,497,480;$75,084,021
-Paradise;September;Sep 18, 1991;Drama;PG-13;$18,634,643;$37,313,540
-Deceived;September;Sep 27, 1991;Thriller/Suspense;PG-13;$28,738,096;$57,544,453
-Ernest Scared Stupid;October;Oct 11, 1991;Comedy;PG;$14,143,280;$28,320,147
-Billy Bathgate;November;Nov 1, 1991;Drama;R;$15,565,363;$31,167,691
-Beauty and the Beast;November;Nov 13, 1991;Musical;G;$218,951,625;$363,017,667
-Father of the Bride;December;Dec 20, 1991;Comedy;PG;$89,325,780;$179,821,881
-The Hand That Rocks the Cradle;January ;Jan 10, 1992;Thriller/Suspense;R;$88,036,683;$178,831,137
-Medicine Man;February;Feb 7, 1992;Drama;PG-13;$44,948,240;$91,304,495
-Blame it on the Bellboy;March;Mar 6, 1992;Comedy;PG-13;$2,891,055;$5,872,667
-Noises Off...;March;Mar 20, 1992;Comedy;PG-13;$2,280,148;$4,631,720
-Straight Talk;April;Apr 3, 1992;Comedy;PG;$21,202,099;$43,068,356
-Newsies;April;Apr 8, 1992;;PG;$2,706,352;$5,497,481
-Passed Away;April;Apr 24, 1992;;PG-13;$4,030,793;$8,187,848
-Encino Man;May;May 22, 1992;Comedy;PG;$40,057,130;$81,369,058
-Sister Act;May;May 29, 1992;Comedy;PG;$139,605,150;$283,583,472
-Honey I Blew Up the Kid;July;Jul 17, 1992;Comedy;PG;$58,662,452;$119,162,518
-A Stranger Among Us;July;Jul 17, 1992;Drama;PG-13;$12,282,994;$24,950,752
-3 Ninjas;August;Aug 7, 1992;Action;PG;$29,028,000;$58,965,304
-A Gun in Betty Lou's Handbag;August;Aug 21, 1992;;PG-13;$3,591,460;$7,295,423
-Captain Ron;September;Sep 18, 1992;Comedy;PG-13;$22,518,097;$45,741,576
-Sarafina!;September;Sep 18, 1992;Drama;PG-13;$7,306,242;$14,841,352
-Innocent Blood;September;Sep 25, 1992;Horror;R;$4,877,567;$9,907,922
-The Mighty Ducks;October;Oct 2, 1992;Comedy;PG;$50,752,337;$103,120,810
-1492: Conquest of Paradise;October;Oct 9, 1992;Adventure;PG-13;$7,099,531;$14,421,454
-Consenting Adults;October;Oct 16, 1992;Drama;R;$21,591,728;$43,859,823
-Aladdin;November;Nov 11, 1992;Comedy;G;$217,350,219;$441,969,178
-The Distinguished Gentleman;December;Dec 4, 1992;Comedy;R;$46,434,570;$94,349,900
-The Muppet Christmas Carol;December;Dec 11, 1992;Comedy;G;$27,281,507;$55,417,615
-Alive;January ;Jan 15, 1993;Adventure;R;$36,299,670;$73,914,543
-Aspen Extreme;January ;Jan 22, 1993;Romantic Comedy;PG-13;$7,843,388;$15,970,955
-Homeward Bound: The Incredible Journey;February;Feb 3, 1993;Adventure;G;$41,833,324;$85,182,343
-The Cemetery Club;February;Feb 3, 1993;Comedy;PG-13;$5,583,621;$11,369,541
-Swing Kids;March;Mar 5, 1993;Musical;PG-13;$5,632,086;$11,468,231
-A Far Off Place;March;Mar 12, 1993;Adventure;PG;$12,890,752;$26,248,558
-Born Yesterday;March;Mar 26, 1993;Romantic Comedy;PG;$17,760,754;$36,165,012
-The Adventures of Huck Finn;April;Apr 2, 1993;Adventure;PG;$24,103,594;$49,080,505
-Bound by Honor;April;Apr 16, 1993;;R;$4,496,583;$9,156,084
-Indian Summer;April;Apr 23, 1993;Comedy;R;$14,717,851;$29,968,953
-Super Mario Bros.;May;May 28, 1993;Action;PG;$20,844,907;$42,445,058
-Guilty as Sin;June;Jun 4, 1993;Thriller/Suspense;R;$22,622,537;$46,064,723
-Life With Mikey;June;Jun 4, 1993;Comedy;PG;$12,349,549;$25,146,538
-What's Love Got to Do With It;June;Jun 9, 1993;Drama;R;$39,100,956;$79,618,610
-Son in Law;July;Jul 2, 1993;Comedy;PG-13;$25,989,889;$52,921,433
-Hocus Pocus;July;Jul 16, 1993;Comedy;PG;$39,360,491;$80,147,079
-Another Stakeout;July;Jul 23, 1993;Comedy;PG-13;$20,107,504;$40,943,541
-My Boyfriend's Back;August;Aug 6, 1993;;PG-13;$3,218,882;$6,554,384
-Father Hood;August;Aug 27, 1993;;PG-13;$3,268,203;$6,654,819
-The Joy Luck Club;September;Sep 8, 1993;Drama;R;$32,790,064;$66,768,171
-Money for Nothing;September;Sep 10, 1993;Comedy;R;$1,044,824;$2,127,496
-The Program;September;Sep 24, 1993;Action;R;$23,042,200;$46,919,256
-Cool Runnings;October;Oct 1, 1993;Comedy;PG;$68,856,263;$140,392,731
-The Nightmare Before Christmas;October;Oct 13, 1993;Musical;PG;$50,408,318;$100,026,637
-The Three Musketeers;November;Nov 12, 1993;Adventure;PG;$53,661,805;$109,310,377
-Sister Act 2 Back in the Habit;December;Dec 10, 1993;Comedy;PG;$57,319,029;$116,965,668
-Tombstone;December;Dec 25, 1993;Western;R;$56,505,065;$115,781,734
-The Air Up There;January ;Jan 7, 1994;Comedy;PG;$20,782,439;$42,940,186
-Cabin Boy;January ;Jan 7, 1994;Comedy;PG-13;$3,469,493;$7,168,577
-Iron Will;January ;Jan 14, 1994;Drama;PG;$20,623,071;$42,610,902
-Red Rock West;January ;Jan 28, 1994;;R;$2,502,551;$5,170,709
-Blank Check;February;Feb 11, 1994;Comedy;PG;$30,573,770;$63,170,804
-Angie;March;Mar 4, 1994;Comedy;R;$9,252,349;$19,116,981
-The Ref;March;Mar 9, 1994;Comedy;R;$11,325,885;$23,401,275
-D2: The Mighty Ducks;March;Mar 25, 1994;Comedy;PG;$45,604,206;$94,226,333
-Holy Matrimony;April;Apr 8, 1994;Comedy;;$713,234;$1,473,665
-White Fang 2: Myth of the White Wolf;April;Apr 15, 1994;Adventure;PG;$8,752,399;$18,083,994
-The Inkwell;April;Apr 22, 1994;Comedy;R;$8,864,699;$18,316,030
-When a Man Loves a Woman;April;Apr 29, 1994;Drama;R;$50,021,959;$103,354,194
-3 Ninjas Kick Back;May;May 6, 1994;Action;PG;$11,744,960;$24,267,154
-Renaissance Man;June;Jun 3, 1994;Comedy;PG-13;$24,172,899;$49,945,474
-The Lion King;June;Jun 15, 1994;Adventure;G;$422,780,140;$761,640,898
-I Love Trouble;June;Jun 29, 1994;Romantic Comedy;PG;$30,806,194;$63,651,027
-Angels in the Outfield;July;Jul 15, 1994;Comedy;PG;$50,236,831;$103,798,152
-In the Army Now;August;Aug 12, 1994;Comedy;PG;$28,881,266;$59,673,787
-Color of Night;August;Aug 19, 1994;Thriller/Suspense;R;$19,750,470;$40,804,816
-Camp Nowhere;August;Aug 26, 1994;Comedy;PG;$10,442,641;$21,576,332
-It's Pat;August;Aug 26, 1994;Comedy;;$60,822;$125,666
-A Simple Twist of Fate;September;Sep 2, 1994;Drama;PG-13;$3,404,935;$7,035,189
-Quiz Show;September;Sep 14, 1994;Drama;PG-13;$24,787,282;$50,840,394
-Terminal Velocity;September;Sep 23, 1994;Action;PG-13;$16,478,900;$34,048,315
-Ed Wood;September;Sep 30, 1994;Comedy;R;$5,828,466;$12,042,634
-The Puppet Masters;October;Oct 21, 1994;Horror;R;$8,579,626;$17,727,017
-Squanto: A Warrior's Tale;October;Oct 28, 1994;Drama;PG;$3,319,344;$6,858,345
-The Santa Clause;November;Nov 11, 1994;Comedy;PG;$144,833,357;$298,369,717
-A Low Down Dirty Shame;November;Nov 23, 1994;Action;R;$29,317,886;$60,321,919
-The Jungle Book;December;Dec 25, 1994;Adventure;PG;$44,342,956;$88,930,321
-Houseguest;January ;Jan 6, 1995;Comedy;PG;$26,325,256;$51,016,522
-Bad Company;January ;Jan 20, 1995;Thriller/Suspense;R;$3,523,909;$6,829,092
-Miami Rhapsody;January ;Jan 27, 1995;Romantic Comedy;PG-13;$5,086,578;$9,857,435
-The Jerky Boys;February;Feb 3, 1995;Comedy;R;$7,555,256;$14,641,561
-Heavy Weights;February;Feb 17, 1995;Comedy;PG;$17,671,310;$34,245,779
-Man of the House;March;Mar 3, 1995;Comedy;PG;$40,029,009;$77,573,459
-Roommates;March;Mar 3, 1995;Comedy;PG;$12,076,989;$23,404,369
-Tall Tale;March;Mar 24, 1995;Western;PG;$8,247,627;$15,983,331
-A Pyromaniac's Love Story;March;Mar 28, 1995;Romantic Comedy;PG;$468,240;$907,414
-Jefferson in Paris;March;Mar 31, 1995;Drama;PG-13;$2,461,628;$4,770,461
-Funny Bones;March;Mar 31, 1995;Comedy;R;$529,135;$1,025,425
-A Goofy Movie;April;Apr 7, 1995;Comedy;G;$35,336,439;$68,479,579
-While You Were Sleeping;April;Apr 21, 1995;Romantic Comedy;PG;$81,057,016;$157,082,900
-Crimson Tide;May;May 12, 1995;Action;R;$91,387,195;$177,102,077
-Mad Love;May;May 26, 1995;Drama;PG-13;$15,446,532;$29,934,306
-Pocahontas;June;Jun 10, 1995;Adventure;G;$141,579,773;$274,370,957
-Judge Dredd;June;Jun 30, 1995;Action;R;$34,687,912;$67,222,776
-Operation Dumbo Drop;July;Jul 28, 1995;Adventure;PG;$24,670,346;$47,809,421
-Dangerous Minds;August;Aug 11, 1995;Drama;R;$84,919,401;$164,552,293
-A Kid in King Arthur's Court;August;Aug 11, 1995;Adventure;PG;$13,406,717;$25,981,285
-The Tie That Binds;September;Sep 8, 1995;Thriller/Suspense;R;$5,762,795;$11,167,895
-Unstrung Heroes;September;Sep 15, 1995;Drama;PG;$7,929,000;$15,365,850
-The Big Green;September;Sep 29, 1995;Comedy;PG;$17,736,619;$34,372,339
-Dead Presidents;October;Oct 4, 1995;Drama;R;$24,120,194;$46,741,467
-The Scarlet Letter;October;Oct 13, 1995;Drama;R;$10,359,006;$20,075,033
-Feast of July;October;Oct 13, 1995;Drama;R;$293,274;$568,342
-Powder;October;Oct 27, 1995;Drama;PG-13;$30,833,914;$59,727,216
-Toy Story;November;Nov 22, 1995;Adventure;G;$191,796,233;$370,409,631
-Father of the Bride Part II;December;Dec 8, 1995;Comedy;PG;$76,578,911;$147,658,438
-Nixon;December;Dec 20, 1995;Drama;R;$13,668,249;$26,302,005
-Tom and Huck;December;Dec 22, 1995;Adventure;PG;$23,837,227;$45,911,517
-Mr. Holland's Opus;December;Dec 29, 1995;Drama;PG;$82,582,604;$157,508,868
-White Squall;February;Feb 2, 1996;Adventure;PG-13;$10,229,300;$19,509,726
-Muppet Treasure Island;February;Feb 16, 1996;Adventure;G;$34,327,391;$65,470,567
-Mr. Wrong;February;Feb 16, 1996;Romantic Comedy;PG-13;$12,805,071;$24,422,334
-Before and After;February;Feb 23, 1996;Drama;PG-13;$8,642,118;$16,482,589
-Up Close & Personal;March;Mar 1, 1996;Drama;PG-13;$51,045,801;$97,356,578
-Homeward Bound II: Lost in San Franc…;March;Mar 8, 1996;Adventure;G;$32,709,423;$62,384,706
-Two Much;March;Mar 15, 1996;Romantic Comedy;PG-13;$1,078,555;$2,057,055
-Un indien dans la ville;March;Mar 22, 1996;Comedy;PG;$1,029,731;$1,963,937
-James and the Giant Peach;April;Apr 12, 1996;Adventure;PG;$28,921,264;$55,159,783
-Celtic Pride;April;Apr 19, 1996;Comedy;PG-13;$9,240,378;$17,623,615
-Last Dance;May;May 3, 1996;Drama;R;$5,857,534;$11,171,714
-Boys;May;May 10, 1996;Drama;PG-13;$21,930,418;$41,826,566
-Spy Hard;May;May 24, 1996;Comedy;PG-13;$26,936,265;$51,373,912
-Eddie;May;May 31, 1996;Comedy;PG-13;$31,369,401;$59,828,966
-The Rock;June;Jun 7, 1996;Action;R;$134,069,511;$255,702,705
-The Hunchback of Notre Dame;June;Jun 21, 1996;Adventure;G;$100,138,851;$190,988,799
-Phenomenon;July;Jul 5, 1996;Drama;PG;$104,636,382;$199,559,799
-Kazaam;July;Jul 17, 1996;Comedy;PG;$18,880,508;$36,009,655
-Jack;August;Aug 9, 1996;Drama;PG-13;$58,617,334;$111,792,852
-First Kid;August;Aug 30, 1996;Comedy;PG;$26,465,920;$50,465,108
-The Rich Man's Wife;September;Sep 13, 1996;Thriller/Suspense;R;$8,538,318;$16,284,619
-D3: The Mighty Ducks;October;Oct 4, 1996;Comedy;PG;$22,936,273;$43,713,554
-The Associate;October;Oct 25, 1996;Comedy;PG-13;$12,772,657;$24,333,094
-Ransom;November;Nov 8, 1996;Action;R;$136,492,681;$259,807,820
-The War at Home;November;Nov 20, 1996;;R;$34,368;$65,543
-101 Dalmatians;November;Nov 27, 1996;Comedy;G;$136,189,294;$258,728,898
-The Preacher's Wife;December;Dec 13, 1996;Drama;PG;$48,102,795;$91,076,877
-Evita;December;Dec 25, 1996;Musical;PG;$50,047,179;$92,077,628
-Metro;January ;Jan 17, 1997;Action;R;$32,017,895;$58,804,106
-Prefontaine;January ;Jan 24, 1997;Drama;PG-13;$590,817;$1,085,093
-Shadow Conspiracy;January ;Jan 31, 1997;Thriller/Suspense;R;$2,154,540;$3,957,025
-That Darn Cat;February;Feb 14, 1997;Comedy;PG;$18,301,828;$33,613,158
-Jungle 2 Jungle;March;Mar 7, 1997;Comedy;PG;$59,925,026;$110,058,379
-The Sixth Man;March;Mar 28, 1997;Comedy;PG-13;$14,765,099;$27,117,599
-Grosse Pointe Blank;April;Apr 11, 1997;Black Comedy;R;$28,084,357;$51,579,764
-Romy and Michele's High School Reunion;April;Apr 25, 1997;Comedy;R;$29,235,353;$53,693,680
-Gone Fishin';May;May 30, 1997;Comedy;PG;$19,745,922;$36,265,379
-Con Air;June;Jun 6, 1997;Action;R;$101,117,573;$185,712,664
-Hercules;June;Jun 13, 1997;Adventure;G;$99,112,101;$182,029,412
-George Of The Jungle;July;Jul 16, 1997;Comedy;PG;$105,263,257;$193,326,632
-Nothing To Lose;July;Jul 18, 1997;Comedy;R;$44,480,039;$81,692,095
-Air Bud;August;Aug 1, 1997;Comedy;PG;$24,646,936;$45,266,588
-G.I. Jane;August;Aug 22, 1997;Drama;R;$48,169,156;$88,467,531
-A Thousand Acres;September;Sep 19, 1997;Drama;R;$7,928,412;$14,561,324
-Washington Square;October;Oct 5, 1997;Drama;PG;$1,775,644;$3,257,546
-Rocket Man;October;Oct 10, 1997;Comedy;PG;$15,448,043;$28,371,890
-Playing God;October;Oct 17, 1997;Thriller/Suspense;R;$4,166,918;$7,652,965
-Flubber;November;Nov 26, 1997;Comedy;PG;$92,993,801;$170,406,423
-An American Werewolf in Paris;December;Dec 25, 1997;Horror;R;$26,570,463;$48,546,161
-Mr. Magoo;December;Dec 25, 1997;Comedy;PG;$21,437,192;$39,145,784
-Kundun;December;Dec 25, 1997;Drama;PG-13;$5,686,694;$10,236,836
-Deep Rising;January ;Jan 30, 1998;Action;R;$11,203,026;$20,136,775
-Krippendorf's Tribe;February;Feb 27, 1998;Comedy;PG-13;$7,571,115;$13,608,633
-An Alan Smithee Film: Burn Hollywood …;February;Feb 27, 1998;Comedy;R;$45,779;$82,277
-Meet the Deedles;March;Mar 27, 1998;Comedy;PG;$4,356,126;$7,829,877
-He Got Game;May;May 1, 1998;Drama;R;$21,567,853;$38,766,948
-The Horse Whisperer;May;May 15, 1998;Drama;PG-13;$75,383,563;$135,497,531
-Six Days, Seven Nights;June;Jun 12, 1998;Romantic Comedy;PG-13;$74,339,294;$133,620,516
-Mulan;June;Jun 19, 1998;Adventure;G;$120,620,254;$216,807,832
-Armageddon;July;Jul 1, 1998;Adventure;PG-13;$201,578,182;$362,324,957
-Jane Austen's Mafia;July;Jul 24, 1998;Comedy;PG-13;$19,843,795;$35,668,055
-The Parent Trap;July;Jul 29, 1998;Comedy;PG;$66,308,518;$119,185,667
-Firelight;September;Sep 4, 1998;Drama;R;$784,419;$1,409,943
-Simon Birch;September;Sep 11, 1998;Drama;PG;$18,253,415;$32,809,442
-Holy Man;October;Oct 9, 1998;Comedy;PG;$12,069,719;$21,694,605
-Beloved;October;Oct 16, 1998;Drama;R;$22,852,487;$41,062,682
-The Waterboy;November;Nov 6, 1998;Comedy;PG-13;$161,491,646;$288,691,833
-I'll Be Home For Christmas;November;Nov 13, 1998;Comedy;PG;$12,214,338;$21,941,840
-A Bug's Life;November;Nov 20, 1998;Adventure;G;$162,798,565;$288,981,698
-Enemy of the State;November;Nov 20, 1998;Action;R;$111,549,836;$198,472,008
-Rushmore;December;Dec 11, 1998;Black Comedy;R;$17,105,219;$28,392,518
-A Civil Action;December;Dec 25, 1998;Drama;PG-13;$56,709,981;$94,139,530
-Mighty Joe Young;December;Dec 25, 1998;Adventure;PG;$50,632,037;$87,906,042
-My Favorite Martian;February;Feb 12, 1999;Comedy;PG;$36,850,101;$61,150,849
-The Other Sister;February;Feb 26, 1999;Romantic Comedy;PG-13;$27,807,627;$46,145,331
-Doug's 1st Movie;March;Mar 26, 1999;Adventure;G;$19,421,271;$32,228,598
-Ten Things I Hate About You;March;Mar 31, 1999;Romantic Comedy;PG-13;$38,177,966;$63,354,375
-Endurance;May;May 14, 1999;;PG;$229,128;$380,218
-Instinct;June;Jun 4, 1999;Drama;R;$34,105,207;$56,595,842
-Tarzan;June;Jun 16, 1999;Adventure;G;$171,091,819;$283,900,254
-Summer of Sam;July;Jul 2, 1999;Drama;R;$19,288,130;$32,007,656
-Inspector Gadget;July;Jul 23, 1999;Comedy;PG;$97,387,965;$161,610,341
-The Sixth Sense;August;Aug 6, 1999;Thriller/Suspense;PG-13;$293,506,292;$485,424,724
-The 13th Warrior;August;Aug 27, 1999;Action;R;$32,698,899;$54,262,148
-Breakfast of Champions;September;Sep 17, 1999;Comedy;R;$178,287;$295,851
-Mumford;September;Sep 24, 1999;Comedy;R;$4,559,569;$7,566,363
-Mystery, Alaska;October;Oct 1, 1999;Comedy;R;$8,891,623;$14,755,189
-The Straight Story;October;Oct 15, 1999;Drama;G;$6,197,866;$10,111,144
-The Insider;November;Nov 5, 1999;Drama;R;$28,965,197;$47,794,214
-Toy Story 2;November;Nov 19, 1999;Adventure;G;$245,852,179;$404,450,426
-Cradle Will Rock;December;Dec 8, 1999;Drama;R;$2,899,970;$4,609,153
-Deuce Bigalow: Male Gigolo;December;Dec 10, 1999;Comedy;R;$65,535,067;$106,921,374
-Bicentennial Man;December;Dec 17, 1999;Drama;PG;$58,220,776;$94,838,225
-Play it to the Bone;December;Dec 24, 1999;Comedy;R;$8,427,204;$13,180,524
-Fantasia 2000 (IMAX);January ;Jan 1, 2000;Musical;G;$60,507,228;$94,852,354
-Gun Shy;February;Feb 4, 2000;Comedy;R;$1,638,202;$2,562,155
-The Tigger Movie;February;Feb 11, 2000;Adventure;G;$45,542,421;$71,228,678
-Mission to Mars;March;Mar 10, 2000;Adventure;PG;$60,874,615;$95,208,344
-High Fidelity;March;Mar 31, 2000;Comedy;R;$27,277,055;$42,661,516
-Keeping the Faith;April;Apr 14, 2000;Romantic Comedy;PG-13;$37,036,404;$57,925,202
-Dinosaur;May;May 19, 2000;Adventure;PG;$137,748,063;$215,438,985
-Shanghai Noon;May;May 26, 2000;Western;PG-13;$56,932,305;$89,042,541
-Gone in 60 Seconds;June;Jun 9, 2000;Action;PG-13;$101,643,008;$158,970,411
-Fantasia 2000 (Theatrical Release);June;Jun 16, 2000;Musical;G;$9,103,630;$14,238,144
-The Kid;July;Jul 7, 2000;Comedy;PG;$69,688,384;$108,993,148
-Coyote Ugly;August;Aug 4, 2000;Drama;PG-13;$60,786,269;$95,070,168
-The Crew;August;Aug 25, 2000;Comedy;PG-13;$13,019,253;$20,362,201
-Duets;September;Sep 15, 2000;Drama;R;$4,734,235;$7,404,372
-Remember the Titans;September;Sep 29, 2000;Drama;PG;$115,654,751;$180,742,479
-Unbreakable;November;Nov 22, 2000;Thriller/Suspense;PG-13;$94,999,143;$148,208,901
-102 Dalmatians;November;Nov 22, 2000;Comedy;G;$66,941,559;$104,055,039
-The Emperor's New Groove;December;Dec 15, 2000;Adventure;G;$89,296,573;$136,789,252
-O Brother, Where Art Thou?;December;Dec 22, 2000;Comedy;PG-13;$45,506,619;$67,922,002
-Double Take;January ;Jan 12, 2001;Action;PG-13;$29,823,162;$44,418,589
-Recess: School's Out;February;Feb 16, 2001;Comedy;G;$36,696,761;$54,656,124
-Just Visiting;April;Apr 6, 2001;Comedy;PG-13;$4,777,007;$7,114,869
-Pearl Harbor;May;May 25, 2001;Action;PG-13;$198,539,855;$295,705,112
-Atlantis: The Lost Empire;June;Jun 8, 2001;Adventure;PG;$84,052,762;$125,188,122
-crazy/beautiful;June;Jun 29, 2001;Drama;PG-13;$16,929,123;$25,214,223
-The Princess Diaries;August;Aug 3, 2001;Comedy;G;$108,244,774;$161,218,928
-Bubble Boy;August;Aug 24, 2001;Comedy;PG-13;$5,002,310;$7,450,434
-Max Keeble's Big Move;October;Oct 5, 2001;Comedy;PG;$17,292,381;$25,749,730
-Corky Romano;October;Oct 12, 2001;Comedy;PG-13;$23,978,402;$35,705,805
-High Heels and Low Lifes;October;Oct 26, 2001;;R;$226,792;$337,782
-Monsters, Inc.;November;Nov 2, 2001;Adventure;G;$289,423,425;$416,073,179
-Out Cold;November;Nov 21, 2001;Comedy;PG-13;$13,906,394;$20,700,691
-The Royal Tenenbaums;December;Dec 14, 2001;Black Comedy;R;$52,353,636;$76,758,193
-Beauty and the Beast (IMAX);January ;Jan 1, 2002;Musical;G;$25,487,028;$36,980,311
-Frank McKlusky C.I.;January ;Jan 1, 2002;;;0.00 $;0.00 $
-Snow Dogs;January ;Jan 18, 2002;Comedy;PG;$81,150,692;$117,745,317
-The Count of Monte Cristo;January ;Jan 25, 2002;Drama;PG-13;$54,228,104;$78,682,079
-Peter Pan: Return to Neverland;February;Feb 15, 2002;Adventure;G;$48,430,258;$70,269,715
-Reign of Fire;February;Feb 19, 2002;Action;PG-13;$43,061,982;$62,480,631
-Sorority Boys;March;Mar 22, 2002;Comedy;R;$10,198,766;$14,797,862
-The Rookie;March;Mar 29, 2002;Drama;G;$75,600,072;$109,691,666
-Big Trouble;April;Apr 5, 2002;Comedy;PG-13;$7,262,288;$10,537,188
-ESPN's Ultimate X - The Movie;May;May 10, 2002;Documentary;PG;$4,197,175;$6,089,874
-Bad Company;June;Jun 7, 2002;Action;PG-13;$30,157,016;$43,756,218
-Lilo & Stitch;June;Jun 21, 2002;Adventure;PG;$145,771,527;$211,506,702
-The Country Bears;July;Jul 26, 2002;Adventure;G;$16,988,996;$24,650,121
-Signs;August;Aug 2, 2002;Thriller/Suspense;PG-13;$227,965,690;$330,754,439
-Sen to Chihiro no Kamikakushi;September;Sep 20, 2002;Adventure;PG;$10,049,886;$14,338,992
-Sweet Home Alabama;September;Sep 27, 2002;Comedy;PG-13;$127,214,072;$184,521,151
-Moonlight Mile;September;Sep 27, 2002;Drama;PG-13;$6,830,957;$9,909,094
-Tuck Everlasting;October;Oct 11, 2002;Drama;PG;$19,161,999;$27,789,959
-The Santa Clause 2;November;Nov 1, 2002;Comedy;G;$139,225,854;$201,959,095
-Treasure Planet;November;Nov 27, 2002;Adventure;PG;$38,120,554;$55,189,145
-The Hot Chick;December;Dec 13, 2002;Comedy;PG-13;$35,081,550;$50,624,654
-25th Hour;December;Dec 19, 2002;Drama;R;$13,084,595;$18,325,463
-The Recruit;January ;Jan 31, 2003;Thriller/Suspense;PG-13;$52,784,696;$73,793,522
-Shanghai Knights;February;Feb 7, 2003;Adventure;PG-13;$60,470,220;$84,537,962
-The Jungle Book 2;February;Feb 14, 2003;Adventure;G;$47,901,582;$66,966,883
-Bringing Down the House;March;Mar 7, 2003;Comedy;PG-13;$132,675,402;$185,481,530
-Piglet's Big Movie;March;Mar 21, 2003;Comedy;G;$23,103,423;$32,298,812
-Ghosts of the Abyss;April;Apr 11, 2003;Documentary;G;$17,093,668;$23,803,108
-Holes;April;Apr 18, 2003;Drama;PG;$67,383,924;$94,203,395
-The Lizzie McGuire Movie;May;May 2, 2003;Comedy;PG;$42,734,455;$59,743,191
-Finding Nemo;May;May 30, 2003;Adventure;G;$380,529,370;$518,148,559
-Pirates of the Caribbean: The Curse o…;July;Jul 9, 2003;Adventure;PG-13;$305,411,224;$426,967,926
-Freaky Friday;August;Aug 6, 2003;Comedy;PG;$110,222,438;$154,090,360
-Open Range;August;Aug 15, 2003;Western;R;$58,331,254;$81,547,672
-Cold Creek Manor;September;Sep 19, 2003;Thriller/Suspense;R;$21,384,035;$29,895,090
-Under the Tuscan Sun;September;Sep 26, 2003;Comedy;PG-13;$43,601,508;$60,944,053
-Veronica Guerin;October;Oct 17, 2003;Drama;R;$1,569,918;$2,194,759
-Brother Bear;October;Oct 24, 2003;Adventure;G;$85,336,277;$119,218,333
-The Haunted Mansion;November;Nov 26, 2003;Comedy;PG;$75,817,994;$105,775,678
-Calendar Girls;December;Dec 19, 2003;Comedy;PG-13;$31,011,616;$42,379,650
-Young Black Stallion;December;Dec 25, 2003;Adventure;G;$6,751,389;$9,254,344
-Teacher's Pet: The Movie;January ;Jan 16, 2004;Comedy;PG;$6,491,969;$8,812,764
-Miracle;February;Feb 6, 2004;Drama;PG;$64,378,093;$87,392,478
-Confessions of a Teenage Drama Queen;February;Feb 20, 2004;Comedy;PG;$29,331,068;$39,816,568
-Hidalgo;March;Mar 5, 2004;Western;PG-13;$67,286,731;$91,340,921
-The Ladykillers;March;Mar 26, 2004;Comedy;R;$39,692,139;$53,881,593
-Home on the Range;April;Apr 2, 2004;Comedy;PG;$50,026,353;$67,910,166
-The Alamo;April;Apr 9, 2004;Western;PG-13;$22,406,362;$30,416,359
-Raising Helen;May;May 28, 2004;Comedy;PG-13;$37,485,528;$50,886,144
-Around the World in 80 Days;June;Jun 16, 2004;Adventure;PG;$24,004,159;$32,585,356
-America's Heart and Soul;July;Jul 2, 2004;Documentary;Not Rated;$314,000;$426,246
-King Arthur;July;Jul 7, 2004;Adventure;PG-13;$51,877,963;$70,423,706
-The Village;July;Jul 30, 2004;Thriller/Suspense;PG-13;$114,197,520;$155,021,748
-The Princess Diaries 2: Royal Engagement;August;Aug 11, 2004;Romantic Comedy;G;$95,149,435;$129,164,207
-Mr. 3000;September;Sep 17, 2004;Comedy;PG-13;$21,800,302;$29,593,641
-The Last Shot;September;Sep 24, 2004;Comedy;R;$463,730;$629,502
-Ladder 49;October;Oct 1, 2004;Action;PG-13;$74,541,707;$101,161,045
-The Incredibles;November;Nov 5, 2004;Adventure;PG;$261,441,092;$354,488,708
-National Treasure;November;Nov 19, 2004;Adventure;PG;$173,005,002;$234,069,353
-The Life Aquatic with Steve Zissou;December;Dec 10, 2004;Comedy;R;$24,006,726;$32,198,655
-Aliens of the Deep;January ;Jan 28, 2005;Documentary;G;$8,968,684;$11,740,942
-Pooh's Heffalump Movie;February;Feb 11, 2005;Adventure;G;$18,098,433;$23,801,835
-The Pacifier;March;Mar 4, 2005;Comedy;PG;$113,006,880;$148,619,029
-Ice Princess;March;Mar 18, 2005;Comedy;G;$24,381,334;$32,064,685
-A Lot Like Love;April;Apr 22, 2005;Comedy;PG-13;$21,835,784;$28,716,947
-The Hitchhiker's Guide to the Galaxy;April;Apr 29, 2005;Comedy;PG;$51,019,112;$67,096,891
-Hauru no ugoku shiro;June;Jun 10, 2005;Adventure;PG;$4,710,455;$6,194,870
-Herbie: Fully Loaded;June;Jun 22, 2005;Comedy;G;$66,010,682;$86,812,798
-Dark Water;July;Jul 8, 2005;Thriller/Suspense;PG-13;$25,473,093;$33,500,491
-Sky High;July;Jul 29, 2005;Adventure;PG;$63,939,454;$84,088,854
-Valiant;August;Aug 19, 2005;Adventure;G;$19,478,106;$25,616,292
-Flightplan;September;Sep 23, 2005;Thriller/Suspense;PG-13;$89,706,988;$117,960,425
-The Greatest Game Ever Played;September;Sep 30, 2005;Drama;PG;$15,331,289;$20,162,672
-Shopgirl;October;Oct 21, 2005;Drama;R;$10,284,523;$13,519,621
-Chicken Little;November;Nov 4, 2005;Adventure;G;$135,386,665;$177,954,661
-The Chronicles of Narnia: The Lion, t…;December;Dec 9, 2005;Adventure;PG;$291,710,957;$381,557,539
-Casanova;December;Dec 25, 2005;Drama;R;$11,304,403;$14,574,087
-Glory Road;January ;Jan 13, 2006;Drama;PG;$42,647,449;$54,888,236
-Annapolis;January ;Jan 27, 2006;Drama;PG-13;$17,127,992;$22,044,113
-Roving Mars;January ;Jan 27, 2006;Documentary;G;$10,407,978;$12,948,025
-Eight Below;February;Feb 17, 2006;Adventure;PG;$81,612,565;$105,037,235
-The Shaggy Dog;March;Mar 10, 2006;Comedy;PG;$61,123,569;$78,667,428
-Stay Alive;March;Mar 24, 2006;Horror;PG-13;$23,086,480;$29,712,825
-The Wild;April;Apr 14, 2006;Adventure;G;$37,384,046;$48,114,115
-Stick It;April;Apr 28, 2006;Comedy;PG-13;$26,910,736;$34,634,731
-Goal! The Dream Begins;May;May 12, 2006;Drama;PG;$4,283,255;$5,512,647
-Cars;June;Jun 9, 2006;Comedy;G;$244,082,982;$314,140,384
-Pirates of the Caribbean: Dead Man’…;July;Jul 7, 2006;Adventure;PG-13;$423,315,812;$544,817,142
-Step Up;August;Aug 11, 2006;Drama;PG-13;$65,328,121;$84,078,780
-Invincible;August;Aug 25, 2006;Drama;PG;$57,806,952;$74,398,864
-The Guardian;September;Sep 29, 2006;Action;PG-13;$55,011,732;$70,801,353
-The Prestige;October;Oct 20, 2006;Thriller/Suspense;PG-13;$53,089,891;$68,289,913
-Tim Burton's The Nightmare Before Chr…;October;Oct 20, 2006;Musical;PG;$24,732,041;$30,737,517
-The Santa Clause 3: The Escape Clause;November;Nov 3, 2006;Comedy;G;$84,500,122;$108,694,869
-Déjà Vu;November;Nov 22, 2006;Thriller/Suspense;PG-13;$64,038,616;$82,267,038
-Apocalypto;December;Dec 8, 2006;Adventure;R;$50,866,635;$64,959,548
-Primeval;January ;Jan 12, 2007;Adventure;R;$10,597,734;$12,985,302
-Bridge to Terabithia;February;Feb 16, 2007;Drama;PG;$82,234,139;$100,760,721
-Wild Hogs;March;Mar 2, 2007;Comedy;PG-13;$168,213,584;$206,110,533
-Meet the Robinsons;March;Mar 30, 2007;Adventure;G;$97,822,171;$119,860,589
-The Lookout;March;Mar 30, 2007;Drama;R;$4,600,585;$5,637,048
-The Hoax;April;Apr 6, 2007;Drama;R;$7,164,995;$8,779,196
-The Invisible;April;Apr 27, 2007;Thriller/Suspense;PG-13;$20,568,319;$25,202,168
-Pirates of the Caribbean: At World’…;May;May 24, 2007;Adventure;PG-13;$309,420,425;$379,129,960
-Ratatouille;June;Jun 29, 2007;Comedy;G;$206,445,654;$252,955,933
-Underdog;August;Aug 3, 2007;Adventure;PG;$43,760,605;$53,619,462
-The Game Plan;September;Sep 22, 2007;Comedy;PG;$90,648,202;$111,010,758
-Dan in Real Life;October;Oct 20, 2007;Romantic Comedy;PG-13;$47,642,963;$58,350,234
-Enchanted;November;Nov 21, 2007;Romantic Comedy;PG;$127,706,877;$156,074,310
-National Treasure 2: Book of Secrets;December;Dec 21, 2007;Adventure;PG;$219,961,501;$267,003,525
-Hannah Montana/Miley Cyrus: Best of B…;February;Feb 1, 2008;Concert/Performance;G;$65,281,781;$76,646,993
-Step Up 2 the Streets;February;Feb 14, 2008;Drama;PG-13;$58,017,783;$68,118,371
-College Road Trip;March;Mar 7, 2008;Comedy;G;$45,610,425;$53,550,960
-The Chronicles of Narnia: Prince Caspian;May;May 16, 2008;Adventure;PG;$141,621,490;$166,277,038
-WALL-E;June;Jun 27, 2008;Adventure;G;$223,808,164;$262,771,918
-Swing Vote;August;Aug 1, 2008;Comedy;PG-13;$16,289,867;$19,125,841
-Goal! 2: Living the Dream...;August;Aug 29, 2008;Drama;PG-13;$225,067;$264,247
-Miracle at St. Anna;September;Sep 26, 2008;Drama;R;$7,916,887;$9,295,171
-Beverly Hills Chihuahua;October;Oct 3, 2008;Comedy;PG;$94,514,402;$110,932,022
-Morning Light;October;Oct 17, 2008;Documentary;PG;$275,093;$322,979
-High School Musical 3: Senior Year;October;Oct 24, 2008;Musical;G;$90,559,416;$106,308,538
-Bolt;November;Nov 21, 2008;Comedy;PG;$114,053,759;$133,702,498
-Bedtime Stories;December;Dec 25, 2008;Comedy;PG;$110,101,975;$128,039,679
-Confessions of a Shopaholic;February;Feb 13, 2009;Romantic Comedy;PG;$44,277,350;$49,767,744
-Jonas Brothers: The 3D Concert Experi…;February;Feb 27, 2009;Concert/Performance;G;$38,174,685;$38,174,685
-Race to Witch Mountain;March;Mar 13, 2009;Adventure;PG;$67,172,594;$75,501,997
-Hannah Montana the Movie;April;Apr 10, 2009;Drama;G;$79,576,189;$89,443,640
-Earth;April;Apr 22, 2009;Documentary;G;$32,011,576;$35,981,010
-Up;May;May 29, 2009;Adventure;PG;$293,004,164;$329,336,681
-The Proposal;June;Jun 19, 2009;Romantic Comedy;PG-13;$163,958,031;$184,288,829
-G-Force;July;Jul 24, 2009;Adventure;PG;$119,436,770;$134,246,932
-Gake no ue no Ponyo;August;Aug 14, 2009;Adventure;G;$15,090,399;$16,961,607
-X Games 3D: The Movie;August;Aug 21, 2009;Documentary;PG;$1,391,434;$1,563,976
-Walt and El Grupo;September;Sep 10, 2009;Documentary;PG;$20,521;$23,064
-Surrogates;September;Sep 25, 2009;Action;PG-13;$38,577,772;$43,361,416
-Toy Story 3D Double Feature;October;Oct 2, 2009;Adventure;G;$30,702,446;$34,509,545
-Disney's A Christmas Carol;November;Nov 6, 2009;Drama;PG;$137,855,863;$154,927,105
-The Princess and the Frog;November;Nov 25, 2009;Adventure;G;$104,400,899;$116,316,457
-Old Dogs;November;Nov 25, 2009;Comedy;PG;$49,492,060;$55,503,929
-When in Rome;January ;Jan 29, 2010;Romantic Comedy;PG-13;$32,680,633;$34,917,330
-Alice in Wonderland;March;Mar 5, 2010;Adventure;PG;$334,191,110;$357,063,499
-Waking Sleeping Beauty;March;Mar 26, 2010;Documentary;PG;$80,741;$86,264
-The Last Song;March;Mar 31, 2010;Drama;PG;$62,950,384;$67,258,772
-Oceans;April;Apr 22, 2010;Documentary;G;$19,422,319;$20,751,600
-Prince of Persia: Sands of Time;May;May 28, 2010;Action;PG-13;$90,759,676;$96,971,361
-Toy Story 3;June;Jun 18, 2010;Adventure;G;$415,004,880;$443,408,255
-The Sorcerer's Apprentice;July;Jul 14, 2010;Adventure;PG;$63,150,991;$67,473,105
-Step Up 3D;August;Aug 6, 2010;Drama;PG-13;$42,400,223;$45,302,137
-Gedo Senki (Tales from Earthsea);August;Aug 13, 2010;Adventure;PG-13;$48,658;$51,988
-You Again;September;Sep 24, 2010;Comedy;PG;$25,702,053;$27,461,121
-Secretariat;October;Oct 8, 2010;Drama;PG;$59,699,513;$63,781,920
-Tangled;November;Nov 24, 2010;Adventure;PG;$200,821,936;$214,388,548
-Tron: Legacy;December;Dec 17, 2010;Adventure;PG;$172,062,763;$183,619,259
-Gnomeo and Juliet;February;Feb 11, 2011;Comedy;G;$99,967,670;$106,270,797
-I am Number Four;February;Feb 18, 2011;Adventure;PG-13;$55,100,437;$58,574,607
-Mars Needs Moms;March;Mar 11, 2011;Adventure;PG;$21,392,758;$22,741,603
-African Cats;April;Apr 22, 2011;Documentary;G;$15,428,747;$16,401,551
-Zokkomon;April;Apr 22, 2011;Adventure;PG;$2,815;$2,984
-Prom;April;Apr 29, 2011;Comedy;PG;$10,130,219;$10,768,946
-Pirates of the Caribbean: On Stranger…;May;May 20, 2011;Adventure;PG-13;$241,063,875;$256,263,359
-Cars 2;June;Jun 24, 2011;Adventure;G;$191,450,875;$203,522,177
-Winnie the Pooh;July;Jul 15, 2011;Adventure;G;$26,692,846;$28,375,869
-The Help;August;Aug 10, 2011;Drama;PG-13;$169,705,587;$180,404,976
-Fright Night;August;Aug 19, 2011;Horror;R;$18,298,649;$19,452,402
-Real Steel;October;Oct 7, 2011;Action;PG-13;$85,463,309;$90,848,019
-The Muppets;November;Nov 23, 2011;Comedy;PG;$88,625,922;$94,189,503
-War Horse;December;Dec 25, 2011;Drama;PG-13;$79,883,359;$84,762,149
-The Secret World of Arietty;February;Feb 17, 2012;Adventure;G;$19,192,510;$20,325,733
-John Carter;March;Mar 9, 2012;Adventure;PG-13;$73,058,679;$77,372,445
-Chimpanzee;April;Apr 20, 2012;Documentary;G;$28,965,459;$30,675,725
-The Avengers;May;May 4, 2012;Action;PG-13;$623,279,547;$660,081,224
-Brave;June;Jun 22, 2012;Adventure;PG;$237,282,182;$251,292,441
-People Like Us;June;Jun 29, 2012;Drama;PG-13;$12,431,792;$13,165,822
-The Odd Life of Timothy Green;August;Aug 15, 2012;Drama;PG;$51,853,450;$54,914,942
-Frankenweenie;October;Oct 5, 2012;Comedy;PG;$35,287,788;$37,363,513
-Wreck-It Ralph;November;Nov 2, 2012;Adventure;PG;$189,412,677;$200,354,959
-Lincoln;November;Nov 9, 2012;Drama;PG-13;$182,207,973;$192,122,330
-Oz the Great and Powerful;March;Mar 8, 2013;Adventure;PG;$234,770,996;$243,434,130
-Iron Man 3;May;May 3, 2013;Action;PG-13;$408,992,272;$424,084,233
-Monsters University;June;Jun 21, 2013;Adventure;G;$268,488,329;$278,395,641
-The Lone Ranger;July;Jul 2, 2013;Western;PG-13;$89,302,115;$92,597,388
-Disney Planes;August;Aug 9, 2013;Comedy;PG;$90,282,580;$93,614,037
-The Fifth Estate;October;Oct 18, 2013;Drama;R;$3,254,172;$3,374,251
-Thor: The Dark World;November;Nov 8, 2013;Adventure;PG-13;$206,362,140;$213,962,184
-Kaze Tachinu;November;Nov 8, 2013;Drama;PG-13;$5,201,879;$5,367,415
-Frozen;November;Nov 22, 2013;Adventure;PG;$400,738,009;$414,997,174
-Delivery Man;November;Nov 22, 2013;Comedy;PG-13;$30,659,817;$31,787,136
-Saving Mr. Banks;December;Dec 13, 2013;Drama;PG-13;$83,299,761;$86,249,969
-Need for Speed;March;Mar 14, 2014;Action;PG-13;$43,568,507;$44,955,015
-Muppets Most Wanted;March;Mar 21, 2014;Comedy;PG;$51,178,893;$52,807,594
-Captain America: The Winter Soldier;April;Apr 4, 2014;Action;PG-13;$259,746,958;$268,013,076
-Bears;April;Apr 18, 2014;Documentary;G;$17,780,194;$18,346,024
-Million Dollar Arm;May;May 10, 2014;Drama;PG;$36,447,959;$37,607,865
-Maleficent;May;May 30, 2014;Adventure;PG;$241,407,328;$249,089,809
-Planes: Fire and Rescue;July;Jul 18, 2014;Adventure;PG;$59,157,732;$61,040,349
-Guardians of the Galaxy;August;Aug 1, 2014;Adventure;PG-13;$333,172,112;$343,771,168
-The Hundred-Foot Journey;August;Aug 8, 2014;Romantic Comedy;PG;$54,235,441;$55,961,409
-Alexander and the Terrible, Horrible,…;October;Oct 10, 2014;Comedy;PG;$66,954,149;$69,055,550
-Big Hero 6;November;Nov 7, 2014;Adventure;PG;$222,527,828;$229,249,222
-Into the Woods;December;Dec 25, 2014;Musical;PG;$128,002,372;$130,894,237
-Strange Magic;January ;Jan 23, 2015;Adventure;PG;$12,429,583;$12,429,583
-McFarland, USA;February;Feb 20, 2015;Drama;PG;$44,480,275;$44,480,275
-Cinderella;March;Mar 13, 2015;Drama;PG;$201,151,353;$201,151,353
-Monkey Kingdom;April;Apr 17, 2015;Documentary;G;$16,432,322;$16,432,322
-Avengers: Age of Ultron;May;May 1, 2015;Action;PG-13;$459,005,868;$459,005,868
-Tomorrowland;May;May 22, 2015;Adventure;PG;$93,436,322;$93,436,322
-Inside Out;June;Jun 19, 2015;Adventure;PG;$356,461,711;$356,461,711
-Ant-Man;July;Jul 17, 2015;Action;PG-13;$180,202,163;$180,202,163
-Bridge of Spies;October;Oct 16, 2015;Thriller/Suspense;PG-13;$72,313,754;$72,313,754
-The Good Dinosaur;November;Nov 25, 2015;Adventure;PG;$123,087,120;$123,087,120
-Star Wars Ep. VII: The Force Awakens;December;Dec 18, 2015;Adventure;PG-13;$936,662,225;$936,662,225
-The Finest Hours;January ;Jan 29, 2016;Thriller/Suspense;PG;$27,569,558;$27,569,558
-Zootopia;March;Mar 4, 2016;Adventure;PG;$341,268,248;$341,268,248
-The Jungle Book;April;Apr 15, 2016;Adventure;PG;$364,001,123;$364,001,123
-A Beautiful Planet;April;Apr 29, 2016;Documentary;G;$7,895,708;$7,895,708
-Captain America: Civil War;May;May 6, 2016;Action;PG-13;$408,084,349;$408,084,349
-Alice Through the Looking Glass;May;May 27, 2016;Adventure;PG;$77,042,381;$77,042,381
-Finding Dory;June;Jun 17, 2016;Adventure;PG;$486,295,561;$486,295,561
-The BFG;July;Jul 1, 2016;Adventure;PG;$55,483,770;$55,483,770
-Pete’s Dragon;August;Aug 12, 2016;Adventure;PG;$76,233,151;$76,233,151
-The Light Between Oceans;September;Sep 2, 2016;Drama;PG-13;$12,545,979;$12,545,979
-Queen of Katwe;September;Sep 23, 2016;Drama;PG;$8,874,389;$8,874,389
-Doctor Strange;November;Nov 4, 2016;Adventure;PG-13;$232,532,923;$232,532,923
-Moana;November;Nov 23, 2016;Adventure;PG;$246,082,029;$246,082,029
-Rogue One: A Star Wars Story;December;Dec 16, 2016;Adventure;PG-13;$529,483,936;$529,483,936
+movie_title;release_month;release_year;genre;total_gross;inflation_adjusted_gross
+Snow White and the Seven Dwarfs;December;1937;Musical;184925485;5228953251
+Fantasia;November;1940;Musical;83320000;2187090808
+Pinocchio;February;1940;Adventure;84300000;2188229052
+Song of the South;November;1946;Adventure;65000000;1078510579
+Cinderella;February;1950;Drama;85000000;920608730
+20000 Leagues Under the Sea;December;1954;Adventure;28200000;528279994
+Lady and the Tramp;June;1955;Drama;93600000;1236035515
+Sleeping Beauty;January ;1959;Drama;9464608;21505832
+Babes in Toyland;December;1961;Musical;10218316;124841160
+101 Dalmatians;January ;1961;Comedy;153000000;1362870985
+The Absent Minded Professor;March;1961;Comedy;25381407;310094574
+Bon Voyage!;May;1962;Comedy;9230769;109581646
+The Sword in the Stone;December;1963;Adventure;22182353;153870834
+The Jungle Book;October;1967;Musical;141843000;789612346
+Blackbeard's Ghost;February;1968;Comedy;21540050;138612686
+The Boatniks;July;1970;Comedy;18607492;101200742
+The Aristocats;April;1970;Musical;55675257;255161499
+Bedknobs and Broomsticks;October;1971;Musical;17871174;91305448
+The Apple Dumpling Gang;July;1975;Comedy;31916500;131246872
+The Many Adventures of Winnie the Pooh;March;1977;;;
+Freaky Friday;January ;1977;Comedy;25942000;98067733
+Herbie Goes to Monte Carlo;June;1977;;28000000;105847527
+The Rescuers;June;1977;Adventure;48775599;159743914
+The Black Hole;December;1979;;35841901;120377374
+The Last Flight of Noah’s Ark;June;1980;;11000000;34472116
+Midnight Madness;February;1980;;2900000;9088096
+Amy;March;1981;Drama;;
+Condorman;August;1981;Action;;
+The Devil and Max Devlin;January ;1981;;16000000;48517980
+The Fox and the Hound;July;1981;Comedy;43899231;133118889
+Tron;July;1982;Action;26918576;77184895
+Night Crossing;February;1982;Drama;4500000;12903059
+Tex;November;1982;Drama;7199408;20643199
+Running Brave;November;1983;Drama;1204595;3223725
+Never Cry Wolf;October;1983;Drama;27668764;70669955
+Trenchcoat;March;1983;Comedy;4304286;11519089
+Something Wicked This Way Comes;April;1983;Horror;5656087;15136765
+Splash;March;1984;Comedy;62599495;157057661
+Country;September;1984;Drama;8400000;21075000
+Return to Oz;June;1985;Adventure;10618813;25215934
+One Magic Christmas;November;1985;Drama;13229514;31415432
+Baby: Secret of the Lost Legend;March;1985;Adventure;14276095;33900697
+The Black Cauldron;July;1985;Adventure;21288692;50553142
+My Science Project;August;1985;Comedy;4100000;9736051
+The Journey of Natty Gann;September;1985;Drama;9468512;22302956
+Flight of the Navigator;July;1986;Adventure;18564613;42183197
+Tough Guys;October;1986;Comedy;21458229;48758184
+The Great Mouse Detective;July;1986;Adventure;23605534;53637367
+Off Beat;April;1986;Comedy;4842778;11003932
+The Color of Money;October;1986;Drama;52293000;117957323
+Down and Out in Beverly Hills;January ;1986;Comedy;62134225;141183693
+Ruthless People;June;1986;Comedy;71624879;162748712
+Good Morning Vietnam;December;1987;Comedy;123922370;254414837
+Benji the Hunted;June;1987;Adventure;15212539;32798382
+3 Men and a Baby;November;1987;Comedy;167780960;353334607
+Hello Again;November;1987;Comedy;20419446;44024529
+Ernest Goes to Camp;May;1987;Comedy;23509382;50686462
+Tin Men;March;1987;Comedy;25411386;54787202
+Can't Buy Me Love;August;1987;Romantic Comedy;31623833;68181300
+Adventures in Babysitting;July;1987;Comedy;33790923;72853569
+Outrageous Fortune;January ;1987;Comedy;52864741;113976921
+Stakeout;August;1987;Comedy;65673233;141592160
+D.O.A.;March;1988;Thriller/Suspense;12706478;26062188
+Return to Snowy River;April;1988;Adventure;13687027;28073384
+Who Framed Roger Rabbit?;June;1988;Comedy;154112492;316250084
+Ernest Saves Christmas;November;1988;Comedy;28202109;57845202
+Shoot to Kill;February;1988;Action;29300000;60097074
+The Good Mother;November;1988;Drama;4764606;9772655
+Big Business;June;1988;Comedy;40150487;82352451
+Oliver & Company;November;1988;Adventure;49576671;102254492
+Heartbreak Hotel;September;1988;Comedy;5509417;11300331
+The Rescue;August;1988;Action;5855392;12009960
+Beaches;December;1988;Drama;57041866;120381757
+Cocktail;July;1988;Drama;78222753;160442289
+New York Stories;March;1989;Drama;10763469;22740861
+Gross Anatomy;October;1989;Drama;11346186;23972012
+The Little Mermaid;November;1989;Adventure;111543479;223726012
+Honey I Shrunk the Kids;June;1989;Adventure;130724172;276191669
+Blaze;December;1989;Drama;19049727;39884640
+An Innocent Man;October;1989;Drama;19397847;40983414
+Three Fugitives;January ;1989;Comedy;40590000;85757817
+Disorganized Crime;April;1989;Comedy;7210149;15233465
+Cheetah;August;1989;Adventure;7882250;16653473
+Turner & Hooch;July;1989;Comedy;71079915;150176361
+Dead Poets Society;June;1989;Drama;95860116;202531517
+Where the Heart Is;February;1990;Comedy;1106475;2210321
+Dick Tracy;June;1990;Action;103738726;207231621
+Fire Birds;May;1990;Action;14760451;29485923
+Spaced Invaders;April;1990;Comedy;15000000;29964452
+Mr. Destiny;October;1990;Comedy;15379253;30722056
+Pretty Woman;March;1990;Romantic Comedy;178406268;356389765
+DuckTales: The Movie - Treasure of th…;August;1990;Adventure;18075331;36107823
+Betsy's Wedding;June;1990;Comedy;19740070;39433357
+Taking Care of Business;August;1990;Comedy;20005435;39963460
+Stella;February;1990;Drama;20062347;40077147
+Ernest Goes to Jail;April;1990;Comedy;25029569;49999822
+The Rescuers Down Under;November;1990;Adventure;27931461;55796728
+Green Card;December;1990;Romantic Comedy;29804169;59679131
+Arachnophobia;July;1990;Thriller/Suspense;53208180;106290270
+3 Men and a Little Lady;November;1990;Comedy;71609321;143108869
+One Good Cop;May;1991;Action;11276846;22580472
+The Marrying Man;April;1991;Romantic Comedy;12454768;24939118
+Ernest Scared Stupid;October;1991;Comedy;14143280;28320147
+Haakon Haakonsen;March;1991;Adventure;15024232;30084149
+Billy Bathgate;November;1991;Drama;15565363;31167691
+Paradise;September;1991;Drama;18634643;37313540
+Beauty and the Beast;November;1991;Musical;218951625;363017667
+Oscar;April;1991;Comedy;23562716;47181395
+Deceived;September;1991;Thriller/Suspense;28738096;57544453
+White Fang;January ;1991;Adventure;34729091;69540672
+The Doctor;July;1991;Drama;37497480;75084021
+The Rocketeer;June;1991;Action;46573027;93256673
+What About Bob?;May;1991;Comedy;63710000;127571325
+Wild Hearts Can't Be Broken;May;1991;Drama;7300000;14617333
+Father of the Bride;December;1991;Comedy;89325780;179821881
+Scenes from a Mall;February;1991;Comedy;9563393;19149495
+A Stranger Among Us;July;1992;Drama;12282994;24950752
+Sister Act;May;1992;Comedy;139605150;283583472
+Noises Off...;March;1992;Comedy;2280148;4631720
+Newsies;April;1992;;2706352;5497481
+Blame it on the Bellboy;March;1992;Comedy;2891055;5872667
+Straight Talk;April;1992;Comedy;21202099;43068356
+Consenting Adults;October;1992;Drama;21591728;43859823
+Aladdin;November;1992;Comedy;217350219;441969178
+Captain Ron;September;1992;Comedy;22518097;45741576
+The Muppet Christmas Carol;December;1992;Comedy;27281507;55417615
+3 Ninjas;August;1992;Action;29028000;58965304
+A Gun in Betty Lou's Handbag;August;1992;;3591460;7295423
+Passed Away;April;1992;;4030793;8187848
+Innocent Blood;September;1992;Horror;4877567;9907922
+Encino Man;May;1992;Comedy;40057130;81369058
+Medicine Man;February;1992;Drama;44948240;91304495
+The Distinguished Gentleman;December;1992;Comedy;46434570;94349900
+The Mighty Ducks;October;1992;Comedy;50752337;103120810
+Honey I Blew Up the Kid;July;1992;Comedy;58662452;119162518
+1492: Conquest of Paradise;October;1992;Adventure;7099531;14421454
+Sarafina!;September;1992;Drama;7306242;14841352
+The Hand That Rocks the Cradle;January ;1992;Thriller/Suspense;88036683;178831137
+Money for Nothing;September;1993;Comedy;1044824;2127496
+Life With Mikey;June;1993;Comedy;12349549;25146538
+A Far Off Place;March;1993;Adventure;12890752;26248558
+Indian Summer;April;1993;Comedy;14717851;29968953
+Born Yesterday;March;1993;Romantic Comedy;17760754;36165012
+Another Stakeout;July;1993;Comedy;20107504;40943541
+Super Mario Bros.;May;1993;Action;20844907;42445058
+Guilty as Sin;June;1993;Thriller/Suspense;22622537;46064723
+The Program;September;1993;Action;23042200;46919256
+The Adventures of Huck Finn;April;1993;Adventure;24103594;49080505
+Son in Law;July;1993;Comedy;25989889;52921433
+My Boyfriend's Back;August;1993;;3218882;6554384
+Father Hood;August;1993;;3268203;6654819
+The Joy Luck Club;September;1993;Drama;32790064;66768171
+Alive;January ;1993;Adventure;36299670;73914543
+What's Love Got to Do With It;June;1993;Drama;39100956;79618610
+Hocus Pocus;July;1993;Comedy;39360491;80147079
+Bound by Honor;April;1993;;4496583;9156084
+Homeward Bound: The Incredible Journey;February;1993;Adventure;41833324;85182343
+The Cemetery Club;February;1993;Comedy;5583621;11369541
+Swing Kids;March;1993;Musical;5632086;11468231
+The Nightmare Before Christmas;October;1993;Musical;50408318;100026637
+The Three Musketeers;November;1993;Adventure;53661805;109310377
+Tombstone;December;1993;Western;56505065;115781734
+Sister Act 2 Back in the Habit;December;1993;Comedy;57319029;116965668
+Cool Runnings;October;1993;Comedy;68856263;140392731
+Aspen Extreme;January ;1993;Romantic Comedy;7843388;15970955
+It's Pat;August;1994;Comedy;60822;125666
+Holy Matrimony;April;1994;Comedy;713234;1473665
+Camp Nowhere;August;1994;Comedy;10442641;21576332
+The Ref;March;1994;Comedy;11325885;23401275
+3 Ninjas Kick Back;May;1994;Action;11744960;24267154
+The Santa Clause;November;1994;Comedy;144833357;298369717
+Terminal Velocity;September;1994;Action;16478900;34048315
+Color of Night;August;1994;Thriller/Suspense;19750470;40804816
+Red Rock West;January ;1994;;2502551;5170709
+Iron Will;January ;1994;Drama;20623071;42610902
+The Air Up There;January ;1994;Comedy;20782439;42940186
+Renaissance Man;June;1994;Comedy;24172899;49945474
+Quiz Show;September;1994;Drama;24787282;50840394
+In the Army Now;August;1994;Comedy;28881266;59673787
+A Low Down Dirty Shame;November;1994;Action;29317886;60321919
+Squanto: A Warrior's Tale;October;1994;Drama;3319344;6858345
+A Simple Twist of Fate;September;1994;Drama;3404935;7035189
+Cabin Boy;January ;1994;Comedy;3469493;7168577
+Blank Check;February;1994;Comedy;30573770;63170804
+I Love Trouble;June;1994;Romantic Comedy;30806194;63651027
+The Lion King;June;1994;Adventure;422780140;761640898
+The Jungle Book;December;1994;Adventure;44342956;88930321
+D2: The Mighty Ducks;March;1994;Comedy;45604206;94226333
+Ed Wood;September;1994;Comedy;5828466;12042634
+When a Man Loves a Woman;April;1994;Drama;50021959;103354194
+Angels in the Outfield;July;1994;Comedy;50236831;103798152
+The Puppet Masters;October;1994;Horror;8579626;17727017
+White Fang 2: Myth of the White Wolf;April;1994;Adventure;8752399;18083994
+The Inkwell;April;1994;Comedy;8864699;18316030
+Angie;March;1994;Comedy;9252349;19116981
+Feast of July;October;1995;Drama;293274;568342
+A Pyromaniac's Love Story;March;1995;Romantic Comedy;46824;907414
+Funny Bones;March;1995;Comedy;529135;1025425
+The Scarlet Letter;October;1995;Drama;10359006;20075033
+Roommates;March;1995;Comedy;12076989;23404369
+A Kid in King Arthur's Court;August;1995;Adventure;13406717;25981285
+Nixon;December;1995;Drama;13668249;26302005
+Pocahontas;June;1995;Adventure;141579773;274370957
+Mad Love;May;1995;Drama;15446532;29934306
+Heavy Weights;February;1995;Comedy;17671310;34245779
+The Big Green;September;1995;Comedy;17736619;34372339
+Toy Story;November;1995;Adventure;191796233;370409631
+Jefferson in Paris;March;1995;Drama;2461628;4770461
+Tom and Huck;December;1995;Adventure;23837227;45911517
+Dead Presidents;October;1995;Drama;24120194;46741467
+Operation Dumbo Drop;July;1995;Adventure;24670346;47809421
+Houseguest;January ;1995;Comedy;26325256;51016522
+Bad Company;January ;1995;Thriller/Suspense;3523909;6829092
+Powder;October;1995;Drama;30833914;59727216
+Judge Dredd;June;1995;Action;34687912;67222776
+A Goofy Movie;April;1995;Comedy;35336439;68479579
+Man of the House;March;1995;Comedy;40029009;77573459
+Miami Rhapsody;January ;1995;Romantic Comedy;5086578;9857435
+The Tie That Binds;September;1995;Thriller/Suspense;5762795;11167895
+The Jerky Boys;February;1995;Comedy;7555256;14641561
+Unstrung Heroes;September;1995;Drama;7929000;15365850
+Father of the Bride Part II;December;1995;Comedy;76578911;147658438
+Tall Tale;March;1995;Western;8247627;15983331
+While You Were Sleeping;April;1995;Romantic Comedy;81057016;157082900
+Mr. Holland's Opus;December;1995;Drama;82582604;157508868
+Dangerous Minds;August;1995;Drama;84919401;164552293
+Crimson Tide;May;1995;Action;91387195;177102077
+The War at Home;November;1996;;34368;65543
+Un indien dans la ville;March;1996;Comedy;1029731;1963937
+Two Much;March;1996;Romantic Comedy;1078555;2057055
+White Squall;February;1996;Adventure;10229300;19509726
+The Hunchback of Notre Dame;June;1996;Adventure;100138851;190988799
+Phenomenon;July;1996;Drama;104636382;199559799
+The Associate;October;1996;Comedy;12772657;24333094
+Mr. Wrong;February;1996;Romantic Comedy;12805071;24422334
+The Rock;June;1996;Action;134069511;255702705
+101 Dalmatians;November;1996;Comedy;136189294;258728898
+Ransom;November;1996;Action;136492681;259807820
+Kazaam;July;1996;Comedy;18880508;36009655
+Boys;May;1996;Drama;21930418;41826566
+D3: The Mighty Ducks;October;1996;Comedy;22936273;43713554
+First Kid;August;1996;Comedy;26465920;50465108
+Spy Hard;May;1996;Comedy;26936265;51373912
+James and the Giant Peach;April;1996;Adventure;28921264;55159783
+Eddie;May;1996;Comedy;31369401;59828966
+Homeward Bound II: Lost in San Franc…;March;1996;Adventure;32709423;62384706
+Muppet Treasure Island;February;1996;Adventure;34327391;65470567
+The Preacher's Wife;December;1996;Drama;48102795;91076877
+Last Dance;May;1996;Drama;5857534;11171714
+Evita;December;1996;Musical;50047179;92077628
+Up Close & Personal;March;1996;Drama;51045801;97356578
+Jack;August;1996;Drama;58617334;111792852
+The Rich Man's Wife;September;1996;Thriller/Suspense;8538318;16284619
+Before and After;February;1996;Drama;8642118;16482589
+Celtic Pride;April;1996;Comedy;9240378;17623615
+Prefontaine;January ;1997;Drama;590817;1085093
+Washington Square;October;1997;Drama;1775644;3257546
+Con Air;June;1997;Action;101117573;185712664
+George Of The Jungle;July;1997;Comedy;105263257;193326632
+The Sixth Man;March;1997;Comedy;14765099;27117599
+Rocket Man;October;1997;Comedy;15448043;28371890
+That Darn Cat;February;1997;Comedy;18301828;33613158
+Gone Fishin';May;1997;Comedy;19745922;36265379
+Shadow Conspiracy;January ;1997;Thriller/Suspense;2154540;3957025
+Mr. Magoo;December;1997;Comedy;21437192;39145784
+Air Bud;August;1997;Comedy;24646936;45266588
+An American Werewolf in Paris;December;1997;Horror;26570463;48546161
+Grosse Pointe Blank;April;1997;Black Comedy;28084357;51579764
+Romy and Michele's High School Reunion;April;1997;Comedy;29235353;53693680
+Metro;January ;1997;Action;32017895;58804106
+Playing God;October;1997;Thriller/Suspense;4166918;7652965
+Nothing To Lose;July;1997;Comedy;44480039;81692095
+G.I. Jane;August;1997;Drama;48169156;88467531
+Kundun;December;1997;Drama;5686694;10236836
+Jungle 2 Jungle;March;1997;Comedy;59925026;110058379
+A Thousand Acres;September;1997;Drama;7928412;14561324
+Flubber;November;1997;Comedy;92993801;170406423
+Hercules;June;1997;Adventure;99112101;182029412
+An Alan Smithee Film: Burn Hollywood …;February;1998;Comedy;45779;82277
+Firelight;September;1998;Drama;784419;1409943
+Deep Rising;January ;1998;Action;11203026;20136775
+Enemy of the State;November;1998;Action;111549836;198472008
+Holy Man;October;1998;Comedy;12069719;21694605
+I'll Be Home For Christmas;November;1998;Comedy;12214338;21941840
+Mulan;June;1998;Adventure;120620254;216807832
+The Waterboy;November;1998;Comedy;161491646;288691833
+A Bug's Life;November;1998;Adventure;162798565;288981698
+Rushmore;December;1998;Black Comedy;17105219;28392518
+Simon Birch;September;1998;Drama;18253415;32809442
+Jane Austen's Mafia;July;1998;Comedy;19843795;35668055
+Armageddon;July;1998;Adventure;201578182;362324957
+He Got Game;May;1998;Drama;21567853;38766948
+Beloved;October;1998;Drama;22852487;41062682
+Meet the Deedles;March;1998;Comedy;4356126;7829877
+Mighty Joe Young;December;1998;Adventure;50632037;87906042
+A Civil Action;December;1998;Drama;56709981;94139530
+The Parent Trap;July;1998;Comedy;66308518;119185667
+Krippendorf's Tribe;February;1998;Comedy;7571115;13608633
+Six Days Seven Nights;June;1998;Romantic Comedy;74339294;133620516
+The Horse Whisperer;May;1998;Drama;75383563;135497531
+Breakfast of Champions;September;1999;Comedy;178287;295851
+Endurance;May;1999;;229128;380218
+Tarzan;June;1999;Adventure;171091819;283900254
+Summer of Sam;July;1999;Drama;19288130;32007656
+Doug's 1st Movie;March;1999;Adventure;19421271;32228598
+Cradle Will Rock;December;1999;Drama;2899970;4609153
+Toy Story 2;November;1999;Adventure;245852179;404450426
+The Other Sister;February;1999;Romantic Comedy;27807627;46145331
+The Insider;November;1999;Drama;28965197;47794214
+The Sixth Sense;August;1999;Thriller/Suspense;293506292;485424724
+The 13th Warrior;August;1999;Action;32698899;54262148
+Instinct;June;1999;Drama;34105207;56595842
+My Favorite Martian;February;1999;Comedy;36850101;61150849
+Ten Things I Hate About You;March;1999;Romantic Comedy;38177966;63354375
+Mumford;September;1999;Comedy;4559569;7566363
+Bicentennial Man;December;1999;Drama;58220776;94838225
+The Straight Story;October;1999;Drama;6197866;10111144
+Deuce Bigalow: Male Gigolo;December;1999;Comedy;65535067;106921374
+Play it to the Bone;December;1999;Comedy;8427204;13180524
+Mystery Alaska;October;1999;Comedy;8891623;14755189
+Inspector Gadget;July;1999;Comedy;97387965;161610341
+Gun Shy;February;2000;Comedy;1638202;2562155
+Gone in 60 Seconds;June;2000;Action;101643008;158970411
+Remember the Titans;September;2000;Drama;115654751;180742479
+The Crew;August;2000;Comedy;13019253;20362201
+Dinosaur;May;2000;Adventure;137748063;215438985
+High Fidelity;March;2000;Comedy;27277055;42661516
+Keeping the Faith;April;2000;Romantic Comedy;37036404;57925202
+Duets;September;2000;Drama;4734235;7404372
+O Brother Where Art Thou?;December;2000;Comedy;45506619;67922002
+The Tigger Movie;February;2000;Adventure;45542421;71228678
+Shanghai Noon;May;2000;Western;56932305;89042541
+Fantasia 2000 (IMAX);January ;2000;Musical;60507228;94852354
+Coyote Ugly;August;2000;Drama;60786269;95070168
+Mission to Mars;March;2000;Adventure;60874615;95208344
+102 Dalmatians;November;2000;Comedy;66941559;104055039
+The Kid;July;2000;Comedy;69688384;108993148
+The Emperor's New Groove;December;2000;Adventure;89296573;136789252
+Fantasia 2000 (Theatrical Release);June;2000;Musical;9103630;14238144
+Unbreakable;November;2000;Thriller/Suspense;94999143;148208901
+High Heels and Low Lifes;October;2001;;226792;337782
+The Princess Diaries;August;2001;Comedy;108244774;161218928
+Out Cold;November;2001;Comedy;13906394;20700691
+crazy/beautiful;June;2001;Drama;16929123;25214223
+Max Keeble's Big Move;October;2001;Comedy;17292381;25749730
+Pearl Harbor;May;2001;Action;198539855;295705112
+Corky Romano;October;2001;Comedy;23978402;35705805
+Monsters Inc.;November;2001;Adventure;289423425;416073179
+Double Take;January ;2001;Action;29823162;44418589
+Recess: School's Out;February;2001;Comedy;36696761;54656124
+Just Visiting;April;2001;Comedy;4777007;7114869
+Bubble Boy;August;2001;Comedy;5002310;7450434
+The Royal Tenenbaums;December;2001;Black Comedy;52353636;76758193
+Atlantis: The Lost Empire;June;2001;Adventure;84052762;125188122
+Frank McKlusky C.I.;January ;2002;;;
+Sen to Chihiro no Kamikakushi;September;2002;Adventure;10049886;14338992
+Sorority Boys;March;2002;Comedy;10198766;14797862
+Sweet Home Alabama;September;2002;Comedy;127214072;184521151
+25th Hour;December;2002;Drama;13084595;18325463
+The Santa Clause 2;November;2002;Comedy;139225854;201959095
+Lilo & Stitch;June;2002;Adventure;145771527;211506702
+The Country Bears;July;2002;Adventure;16988996;24650121
+Tuck Everlasting;October;2002;Drama;19161999;27789959
+Signs;August;2002;Thriller/Suspense;227965690;330754439
+Beauty and the Beast (IMAX);January ;2002;Musical;25487028;36980311
+Bad Company;June;2002;Action;30157016;43756218
+The Hot Chick;December;2002;Comedy;35081550;50624654
+Treasure Planet;November;2002;Adventure;38120554;55189145
+ESPN's Ultimate X - The Movie;May;2002;Documentary;4197175;6089874
+Reign of Fire;February;2002;Action;43061982;62480631
+Peter Pan: Return to Neverland;February;2002;Adventure;48430258;70269715
+The Count of Monte Cristo;January ;2002;Drama;54228104;78682079
+Moonlight Mile;September;2002;Drama;6830957;9909094
+Big Trouble;April;2002;Comedy;7262288;10537188
+The Rookie;March;2002;Drama;75600072;109691666
+Snow Dogs;January ;2002;Comedy;81150692;117745317
+Veronica Guerin;October;2003;Drama;1569918;2194759
+Freaky Friday;August;2003;Comedy;110222438;154090360
+Bringing Down the House;March;2003;Comedy;132675402;185481530
+Ghosts of the Abyss;April;2003;Documentary;17093668;23803108
+Cold Creek Manor;September;2003;Thriller/Suspense;21384035;29895090
+Piglet's Big Movie;March;2003;Comedy;23103423;32298812
+Pirates of the Caribbean: The Curse o…;July;2003;Adventure;305411224;426967926
+Calendar Girls;December;2003;Comedy;31011616;42379650
+Finding Nemo;May;2003;Adventure;380529370;518148559
+The Lizzie McGuire Movie;May;2003;Comedy;42734455;59743191
+Under the Tuscan Sun;September;2003;Comedy;43601508;60944053
+The Jungle Book 2;February;2003;Adventure;47901582;66966883
+The Recruit;January ;2003;Thriller/Suspense;52784696;73793522
+Open Range;August;2003;Western;58331254;81547672
+Young Black Stallion;December;2003;Adventure;6751389;9254344
+Shanghai Knights;February;2003;Adventure;60470220;84537962
+Holes;April;2003;Drama;67383924;94203395
+The Haunted Mansion;November;2003;Comedy;75817994;105775678
+Brother Bear;October;2003;Adventure;85336277;119218333
+America's Heart and Soul;July;2004;Documentary;314;426246
+The Last Shot;September;2004;Comedy;46373;629502
+The Village;July;2004;Thriller/Suspense;114197520;155021748
+National Treasure;November;2004;Adventure;173005002;234069353
+Mr. 3000;September;2004;Comedy;21800302;29593641
+The Alamo;April;2004;Western;22406362;30416359
+Around the World in 80 Days;June;2004;Adventure;24004159;32585356
+The Life Aquatic with Steve Zissou;December;2004;Comedy;24006726;32198655
+The Incredibles;November;2004;Adventure;261441092;354488708
+Confessions of a Teenage Drama Queen;February;2004;Comedy;29331068;39816568
+Raising Helen;May;2004;Comedy;37485528;50886144
+The Ladykillers;March;2004;Comedy;39692139;53881593
+Home on the Range;April;2004;Comedy;50026353;67910166
+King Arthur;July;2004;Adventure;51877963;70423706
+Teacher's Pet: The Movie;January ;2004;Comedy;6491969;8812764
+Miracle;February;2004;Drama;64378093;87392478
+Hidalgo;March;2004;Western;67286731;91340921
+Ladder 49;October;2004;Action;74541707;101161045
+The Princess Diaries 2: Royal Engagement;August;2004;Romantic Comedy;95149435;129164207
+Shopgirl;October;2005;Drama;10284523;13519621
+Casanova;December;2005;Drama;11304403;14574087
+The Pacifier;March;2005;Comedy;113006880;148619029
+Chicken Little;November;2005;Adventure;135386665;177954661
+The Greatest Game Ever Played;September;2005;Drama;15331289;20162672
+Pooh's Heffalump Movie;February;2005;Adventure;18098433;23801835
+Valiant;August;2005;Adventure;19478106;25616292
+A Lot Like Love;April;2005;Comedy;21835784;28716947
+Ice Princess;March;2005;Comedy;24381334;32064685
+Dark Water;July;2005;Thriller/Suspense;25473093;33500491
+The Chronicles of Narnia: The Lion t…;December;2005;Adventure;291710957;381557539
+Hauru no ugoku shiro;June;2005;Adventure;4710455;6194870
+The Hitchhiker's Guide to the Galaxy;April;2005;Comedy;51019112;67096891
+Sky High;July;2005;Adventure;63939454;84088854
+Herbie: Fully Loaded;June;2005;Comedy;66010682;86812798
+Aliens of the Deep;January ;2005;Documentary;8968684;11740942
+Flightplan;September;2005;Thriller/Suspense;89706988;117960425
+Roving Mars;January ;2006;Documentary;10407978;12948025
+Annapolis;January ;2006;Drama;17127992;22044113
+Stay Alive;March;2006;Horror;23086480;29712825
+Tim Burton's The Nightmare Before Chr…;October;2006;Musical;24732041;30737517
+Cars;June;2006;Comedy;244082982;314140384
+Stick It;April;2006;Comedy;26910736;34634731
+The Wild;April;2006;Adventure;37384046;48114115
+Goal! The Dream Begins;May;2006;Drama;4283255;5512647
+Glory Road;January ;2006;Drama;42647449;54888236
+Pirates of the Caribbean: Dead Man’…;July;2006;Adventure;423315812;544817142
+Apocalypto;December;2006;Adventure;50866635;64959548
+The Prestige;October;2006;Thriller/Suspense;53089891;68289913
+The Guardian;September;2006;Action;55011732;70801353
+Invincible;August;2006;Drama;57806952;74398864
+The Shaggy Dog;March;2006;Comedy;61123569;78667428
+Déjà Vu;November;2006;Thriller/Suspense;64038616;82267038
+Step Up;August;2006;Drama;65328121;84078780
+Eight Below;February;2006;Adventure;81612565;105037235
+The Santa Clause 3: The Escape Clause;November;2006;Comedy;84500122;108694869
+Primeval;January ;2007;Adventure;10597734;12985302
+Enchanted;November;2007;Romantic Comedy;127706877;156074310
+Wild Hogs;March;2007;Comedy;168213584;206110533
+The Invisible;April;2007;Thriller/Suspense;20568319;25202168
+Ratatouille;June;2007;Comedy;206445654;252955933
+National Treasure 2: Book of Secrets;December;2007;Adventure;219961501;267003525
+Pirates of the Caribbean: At World’…;May;2007;Adventure;309420425;379129960
+The Lookout;March;2007;Drama;4600585;5637048
+Underdog;August;2007;Adventure;43760605;53619462
+Dan in Real Life;October;2007;Romantic Comedy;47642963;58350234
+The Hoax;April;2007;Drama;7164995;8779196
+Bridge to Terabithia;February;2007;Drama;82234139;100760721
+The Game Plan;September;2007;Comedy;90648202;111010758
+Meet the Robinsons;March;2007;Adventure;97822171;119860589
+Goal! 2: Living the Dream...;August;2008;Drama;225067;264247
+Morning Light;October;2008;Documentary;275093;322979
+Bedtime Stories;December;2008;Comedy;110101975;128039679
+Bolt;November;2008;Comedy;114053759;133702498
+The Chronicles of Narnia: Prince Caspian;May;2008;Adventure;141621490;166277038
+Swing Vote;August;2008;Comedy;16289867;19125841
+WALL-E;June;2008;Adventure;223808164;262771918
+College Road Trip;March;2008;Comedy;45610425;53550960
+Step Up 2 the Streets;February;2008;Drama;58017783;68118371
+Hannah Montana/Miley Cyrus: Best of B…;February;2008;Concert/Performance;65281781;76646993
+Miracle at St. Anna;September;2008;Drama;7916887;9295171
+High School Musical 3: Senior Year;October;2008;Musical;90559416;106308538
+Beverly Hills Chihuahua;October;2008;Comedy;94514402;110932022
+Walt and El Grupo;September;2009;Documentary;20521;23064
+X Games 3D: The Movie;August;2009;Documentary;1391434;1563976
+The Princess and the Frog;November;2009;Adventure;104400899;116316457
+G-Force;July;2009;Adventure;119436770;134246932
+Disney's A Christmas Carol;November;2009;Drama;137855863;154927105
+Gake no ue no Ponyo;August;2009;Adventure;15090399;16961607
+The Proposal;June;2009;Romantic Comedy;163958031;184288829
+Up;May;2009;Adventure;293004164;329336681
+Toy Story 3D Double Feature;October;2009;Adventure;30702446;34509545
+Earth;April;2009;Documentary;32011576;35981010
+Jonas Brothers: The 3D Concert Experi…;February;2009;Concert/Performance;38174685;38174685
+Surrogates;September;2009;Action;38577772;43361416
+Confessions of a Shopaholic;February;2009;Romantic Comedy;44277350;49767744
+Old Dogs;November;2009;Comedy;49492060;55503929
+Race to Witch Mountain;March;2009;Adventure;67172594;75501997
+Hannah Montana the Movie;April;2009;Drama;79576189;89443640
+Gedo Senki (Tales from Earthsea);August;2010;Adventure;48658;51988
+Waking Sleeping Beauty;March;2010;Documentary;80741;86264
+Tron: Legacy;December;2010;Adventure;172062763;183619259
+Oceans;April;2010;Documentary;19422319;20751600
+Tangled;November;2010;Adventure;200821936;214388548
+You Again;September;2010;Comedy;25702053;27461121
+When in Rome;January ;2010;Romantic Comedy;32680633;34917330
+Alice in Wonderland;March;2010;Adventure;334191110;357063499
+Toy Story 3;June;2010;Adventure;415004880;443408255
+Step Up 3D;August;2010;Drama;42400223;45302137
+Secretariat;October;2010;Drama;59699513;63781920
+The Last Song;March;2010;Drama;62950384;67258772
+The Sorcerer's Apprentice;July;2010;Adventure;63150991;67473105
+Prince of Persia: Sands of Time;May;2010;Action;90759676;96971361
+Zokkomon;April;2011;Adventure;2815;2984
+Prom;April;2011;Comedy;10130219;10768946
+African Cats;April;2011;Documentary;15428747;16401551
+The Help;August;2011;Drama;169705587;180404976
+Fright Night;August;2011;Horror;18298649;19452402
+Cars 2;June;2011;Adventure;191450875;203522177
+Mars Needs Moms;March;2011;Adventure;21392758;22741603
+Pirates of the Caribbean: On Stranger…;May;2011;Adventure;241063875;256263359
+Winnie the Pooh;July;2011;Adventure;26692846;28375869
+I am Number Four;February;2011;Adventure;55100437;58574607
+War Horse;December;2011;Drama;79883359;84762149
+Real Steel;October;2011;Action;85463309;90848019
+The Muppets;November;2011;Comedy;88625922;94189503
+Gnomeo and Juliet;February;2011;Comedy;99967670;106270797
+People Like Us;June;2012;Drama;12431792;13165822
+Lincoln;November;2012;Drama;182207973;192122330
+Wreck-It Ralph;November;2012;Adventure;189412677;200354959
+The Secret World of Arietty;February;2012;Adventure;19192510;20325733
+Brave;June;2012;Adventure;237282182;251292441
+Chimpanzee;April;2012;Documentary;28965459;30675725
+Frankenweenie;October;2012;Comedy;35287788;37363513
+The Odd Life of Timothy Green;August;2012;Drama;51853450;54914942
+The Avengers;May;2012;Action;623279547;660081224
+John Carter;March;2012;Adventure;73058679;77372445
+Thor: The Dark World;November;2013;Adventure;206362140;213962184
+Oz the Great and Powerful;March;2013;Adventure;234770996;243434130
+Monsters University;June;2013;Adventure;268488329;278395641
+The Fifth Estate;October;2013;Drama;3254172;3374251
+Delivery Man;November;2013;Comedy;30659817;31787136
+Frozen;November;2013;Adventure;400738009;414997174
+Iron Man 3;May;2013;Action;408992272;424084233
+Kaze Tachinu;November;2013;Drama;5201879;5367415
+Saving Mr. Banks;December;2013;Drama;83299761;86249969
+The Lone Ranger;July;2013;Western;89302115;92597388
+Disney Planes;August;2013;Comedy;90282580;93614037
+Into the Woods;December;2014;Musical;128002372;130894237
+Bears;April;2014;Documentary;17780194;18346024
+Big Hero 6;November;2014;Adventure;222527828;229249222
+Maleficent;May;2014;Adventure;241407328;249089809
+Captain America: The Winter Soldier;April;2014;Action;259746958;268013076
+Guardians of the Galaxy;August;2014;Adventure;333172112;343771168
+Million Dollar Arm;May;2014;Drama;36447959;37607865
+Need for Speed;March;2014;Action;43568507;44955015
+Muppets Most Wanted;March;2014;Comedy;51178893;52807594
+The Hundred-Foot Journey;August;2014;Romantic Comedy;54235441;55961409
+Planes: Fire and Rescue;July;2014;Adventure;59157732;61040349
+Alexander and the Terrible Horrible…;October;2014;Comedy;66954149;69055550
+Strange Magic;January ;2015;Adventure;12429583;12429583
+The Good Dinosaur;November;2015;Adventure;123087120;123087120
+Monkey Kingdom;April;2015;Documentary;16432322;16432322
+Ant-Man;July;2015;Action;180202163;180202163
+Cinderella;March;2015;Drama;201151353;201151353
+Inside Out;June;2015;Adventure;356461711;356461711
+McFarland USA;February;2015;Drama;44480275;44480275
+Avengers: Age of Ultron;May;2015;Action;459005868;459005868
+Bridge of Spies;October;2015;Thriller/Suspense;72313754;72313754
+Tomorrowland;May;2015;Adventure;93436322;93436322
+Star Wars Ep. VII: The Force Awakens;December;2015;Adventure;936662225;936662225
+The Light Between Oceans;September;2016;Drama;12545979;12545979
+Doctor Strange;November;2016;Adventure;232532923;232532923
+Moana;November;2016;Adventure;246082029;246082029
+The Finest Hours;January ;2016;Thriller/Suspense;27569558;27569558
+Zootopia;March;2016;Adventure;341268248;341268248
+The Jungle Book;April;2016;Adventure;364001123;364001123
+Captain America: Civil War;May;2016;Action;408084349;408084349
+Finding Dory;June;2016;Adventure;486295561;486295561
+Rogue One: A Star Wars Story;December;2016;Adventure;529483936;529483936
+The BFG;July;2016;Adventure;55483770;55483770
+A Beautiful Planet;April;2016;Documentary;7895708;7895708
+Pete’s Dragon;August;2016;Adventure;76233151;76233151
+Alice Through the Looking Glass;May;2016;Adventure;77042381;77042381
+Queen of Katwe;September;2016;Drama;8874389;8874389
