@@ -114,6 +114,8 @@ years gap between them.
 
 The last part of this analysis will consist on a regression analysis. To
 see if there’s a correlation between the genre of movie and the revenue
-of those genre. \# Conclusion
+of those genre. 
+
+# Conclusion
 
 # References
