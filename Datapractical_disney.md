@@ -114,7 +114,47 @@ years gap between them.
 
 The last part of this analysis will consist on a regression analysis. To
 see if there’s a correlation between the genre of movie and the revenue
-of those genre. 
+of those genre.
+
+``` r
+library(ggplot2)
+
+ggplot(df_clean, aes(total_gross)) +
+  geom_histogram(bins = 15) +
+  scale_x_continuous(labels = scales::label_number_si()) +
+  facet_wrap(vars(genre))
+```
+
+![](Datapractical_disney_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+
+``` r
+library(ggplot2)
+
+ggplot(df_clean) +
+  aes(x = genre, y = total_gross, color = genre) +
+  geom_jitter() +
+   scale_y_continuous(labels = scales::label_number_si()) +
+  theme(legend.position = "none")
+```
+
+![](Datapractical_disney_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+
+add a section about (<https://statsandr.com/blog/anova-in-r/>) –\> anova
+to see if there’s a difference between the mean of groups
+
+``` r
+model <- lm(total_gross ~ genre, data = df_clean)
+anova(model)
+```
+
+    ## Analysis of Variance Table
+    ## 
+    ## Response: total_gross
+    ##            Df     Sum Sq    Mean Sq F value    Pr(>F)    
+    ## genre      11 8.0653e+17 7.3321e+16  9.7402 3.303e-16 ***
+    ## Residuals 548 4.1251e+18 7.5276e+15                      
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 # Conclusion
 

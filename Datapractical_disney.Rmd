@@ -164,6 +164,32 @@ ggplot(aes(x=reorder(genre, inflation_adjusted_gross), y=inflation_adjusted_gros
 ```
 
 The last part of this analysis will consist on a regression analysis. To see if there's a correlation between the genre of movie and the revenue of those genre. 
+
+```{r}
+library(ggplot2)
+
+ggplot(df_clean, aes(total_gross)) +
+  geom_histogram(bins = 15) +
+  scale_x_continuous(labels = scales::label_number_si()) +
+  facet_wrap(vars(genre))
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(df_clean) +
+  aes(x = genre, y = total_gross, color = genre) +
+  geom_jitter() +
+   scale_y_continuous(labels = scales::label_number_si()) +
+  theme(legend.position = "none")
+```
+
+add a section about (https://statsandr.com/blog/anova-in-r/) --> anova to see if there's a difference between the mean of groups 
+
+```{r}
+model <- lm(total_gross ~ genre, data = df_clean)
+anova(model)
+```
 # Conclusion
 
 # References
