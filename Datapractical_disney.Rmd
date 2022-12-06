@@ -1,21 +1,17 @@
 ---
-title: "Disney movies, a money question"
+title: "Disney movies, a money question" 
 author: Jeanneret Emilie
-output: github_document
+output: pdf_document
 date: "2022-11-23"
 ---
 
-<div align="center">
+\hfil ![](pexels-benjamin-suter-2362002.jpg){width=70%} \hfil
 
-![](pexels-benjamin-suter-2362002.jpg){width="30%"}
-
-<div align="left">
+\newpage
 
 # Introduction
 
 Have you ever seen a Disney movie ? I am sure that you cannot respond "no" to that question. If you really never have seen one, I bet that you know the worldwide famous mouse (of course I am speaking of Mickey Mouse).
-
-![](giphy.gif)
 
 And this is because [The Walt Disney Company](https://fr.wikipedia.org/wiki/The_Walt_Disney_Company) is, since 2012, the first group of entertainment across the world ! Now talking a little bit about the history of this company, we know that is has been created in 1923 (100 years next year ! **woaw**). The founders are Roy and Walter Disney, but the latter is the main character in the Disney history.
 
@@ -27,16 +23,14 @@ This research is interested in the evolution of incomings of Disney movies throu
 
 ## Hypothesis
 
-<div align="center">
+```{=tex}
+\begin{center}
 
 N0: There is no impact of the genre on the incoming
 
-<div align="center">
-
 N1: There is an impact of the genre on the incoming
-
-<div align="left">
-
+\end{center}
+```
 # Data
 
 The data comes from [kaggle](https://www.kaggle.com), where was hidden a [very interesting dataset](https://www.kaggle.com/datasets/prateekmaj21/disney-movies) about disney movies. For this research, we do not need every details and every lines, even if that would be very interesting to analyze.
@@ -56,7 +50,7 @@ df_clean <- drop_na(df_clean0)
 
 ```
 
-As we can see below, the main data table is displaying in the following way
+As we can see below, the main data table is displaying in the following way. There are the title of each movies in the first column, then the related month and year of release is displayed. There are also the revenue of the movie in dollars and the revenue but inflation adjusted. As we are not focusing on the inflation, we are not going to analyze the difference between those two columns very deeply but it might be interesting tho to have a look at it.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 require(knitr)
@@ -69,9 +63,11 @@ nrow(df)
 
 # Analysis
 
+## Descriptive analysis
+
 The first thing we want to look at in this analysis is about the genre. How many movies from each genre is in our dataset ?
 
-```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE, fig.fullwidth=TRUE, fig.align='center'}
 
 library(ggplot2)
 library(dplyr)
@@ -80,7 +76,7 @@ df_clean <- within(df_clean,
                              levels=names(sort(table(genre), 
                                             decreasing=TRUE))))
 library(ggplot2)
-ggplot(df_clean, aes(x=genre, color = genre)) +
+ggplot(df_clean, aes(x=genre, fill = genre)) +
   geom_bar() +
   coord_flip() +
   xlab("Genre of movie") +
@@ -91,7 +87,9 @@ As we can see in this first barplot is that there are three main genre of movies
 
 The following part of this analyze concerns only the revenue of those movies, over the entire period of movies production from disney company.This start from the first movie produced, namely *Snow White and the Seven Dwarfs* in 1937, until the last *The Light Between Oceans* in 2016. Both of those graphs are showing the mean revenue of each year of movie production. The absent datas were taken off.
 
-```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE, fig.width=TRUE, fig.align='center'}
+library(gridExtra)
 group_year1 <- aggregate(x=df$total_gross,
                         by = list(df$release_year),
                         FUN=mean)
@@ -102,19 +100,15 @@ library(tidyr)
 group_year_clean1 <- drop_na(group_year1)
 
 library(ggplot2)
-ggplot(group_year_clean1, aes(x=year, y=mean_revenue)) +
+require(scales)
+ggplot(group_year_clean1, aes(x=year, y=mean_revenue) ) +
   geom_line() +
-  scale_y_continuous(labels = scales::label_number_si()) +
+  scale_y_continuous(labels = label_number(scale_cut = cut_short_scale()))+
   ggtitle("Mean of revenue of disney movies (not inflation adjusted)") +
   xlab("Year") +
-  ylab("Revenue in millions")
-  
+  ylab("Revenue in millions") +
+  theme(plot.title = element_text(size = 8))-> p1
 
-```
-
-This first graph is about the raw/gross revenu of each movie, since it came out. In the second graph below, the amount of money generated are adjusted in term of inflation. This is important because without that you cannot really compare the first and the last movie, because of the years gap between them.
-
-```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 group_year2 <- aggregate(x=df$inflation_adjusted_gross,
                         by = list(df$release_year),
                         FUN=mean)
@@ -127,11 +121,95 @@ group_year_clean2 <- drop_na(group_year2)
 library(ggplot2)
 ggplot(group_year_clean2, aes(x=year, y=mean_revenue)) +
   geom_line()+
-  scale_y_continuous(labels = scales::label_number_si()) +
+  scale_y_continuous(labels = label_number(scale_cut = cut_short_scale())) +
    ggtitle("Mean of revenue of disney movies (inflation adjusted)") +
   xlab("Year") +
-  ylab("Revenue in billions")
+  ylab("Revenue in billions") +
+  theme(plot.title = element_text(size = 8))-> p2
+
+grid.arrange(p1, p2, ncol = 2)
 ```
+
+This first graph is about the raw/gross revenu of each movie, since it came out. In the second graph below, the amount of money generated are adjusted in term of inflation. This is important because without that you cannot really compare the first and the last movie, because of the years gap between them.
+
+
+
+## Inferential analysis
+
+This part of this analysis will consist on seeing if the revenue of movies are significantly related to the kind of movie (comedy, adventure, dram, an so on). Because we have one categorical variable (with more than 2 groups), the genre, and a continuous (or numerical) one (revenue), then we will have to compare the difference between the means. We will procede to an ANOVA, but we will need to check several things before knowing that. Firstly, we need to check the normality of the data because the samples are smaller than 30. As displayed in the table below, we can see that several genre don't count more than 30 observations.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+count <- df_clean %>% count(genre)
+knitr::kable(count, caption = "Number of observations per genre")
+```
+
+As we can see in the graph below, data doesn't seem that normally distributed, that's why we are computing a normality test, namely the Shapiro test. Shapiro test hypothesis are :
+
+H0 : the data follows a normal distribution
+H1 : the data does not follow a normal distribution
+
+The p-value for the shapiro test \< 0.05 so we reject the null hypothesis. This means the distribution is not normal, and that's what we can observe on the histogram. As we have non-parametric data, we have to consider a non-parametric test. We will use the Kruskal-Wallis test.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=TRUE, fig.align='center'}
+library(ggplot2)
+
+ggplot(df_clean, aes(total_gross)) +
+  geom_histogram(bins = 100) +
+  scale_x_continuous(labels = label_number(scale_cut = cut_short_scale())) +
+  xlab("Revenue in dollars ($)") +
+  ylab("Number of observations") +
+  ggtitle("Distribution of the total revenue") -> d1
+
+ggplot(df_clean, aes(total_gross)) +
+  geom_histogram(bins = 100) +
+  scale_x_continuous(labels = label_number(scale_cut = cut_short_scale())) +
+  facet_wrap(vars(genre)) +
+  xlab("Revenue in dollars ($)") +
+  ylab("Number of observations") +
+  ggtitle("Distribution of the revenue depending on the genre") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  theme(plot.title = element_text(size = 8)) -> d2
+
+require(gridExtra)
+grid.arrange(d1, d2, ncol=2)
+
+shapiro.test(df_clean$total_gross)
+```
+
+
+Here we will conduct the non-parametric test called Kruskal-Wallis test. In order to interpret the p-value, here are our assumptions for this test.
+
+H0: Genres are equal in terms of revenue
+H1: At least one genre is different from the other genres in terms of revenue
+
+```{r}
+kruskal.test(total_gross ~ genre, data = df_clean)
+```
+
+Based on the Kruskal-Wallis test, we reject the null hypothesis and we conclude that at least one species is different in terms of flippers length (p-value < .0001). In order to know which group is significantly different from the other, we conduct a post-hoc test. 
+
+```{r}
+require(FSA)
+
+dunnTest(total_gross ~ genre, data = df_clean, method = "holm")
+```
+
+
+
+
+```{r}
+library(ggplot2)
+
+ggplot(df_clean) +
+  aes(x = genre, y = total_gross, color = genre) +
+  geom_jitter() +
+   scale_y_continuous(labels = label_number(scale_cut = cut_si("$"))) +
+  theme(legend.position = "none") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1))
+```
+
+
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
@@ -140,7 +218,7 @@ df_clean %>%
   mutate(class = fct_reorder(genre, total_gross, .fun = "median")) %>%
 ggplot(aes(x=reorder(genre, total_gross), y=total_gross, fill = genre)) +
   geom_boxplot() +
-  scale_y_continuous(labels = scales::label_number_si()) +
+  scale_y_continuous(labels = label_number(scale_cut = cut_si("$"))) +
   coord_flip() +
   theme(legend.position = "none") +
   ggtitle("Distribution or revenue by genre") +
@@ -155,7 +233,7 @@ df_clean %>%
   mutate(class = fct_reorder(genre, inflation_adjusted_gross, .fun = "median")) %>%
 ggplot(aes(x=reorder(genre, inflation_adjusted_gross), y=inflation_adjusted_gross, fill = genre)) +
   geom_boxplot() +
-  scale_y_continuous(labels = scales::label_number_si()) +
+  scale_y_continuous(labels = label_number(scale_cut = cut_si("$"))) +
   coord_flip() +
   theme(legend.position = "none") +
   ggtitle("Distribution or revenue by genre") +
@@ -163,33 +241,6 @@ ggplot(aes(x=reorder(genre, inflation_adjusted_gross), y=inflation_adjusted_gros
   ylab("Revenue, inflation adjusted")
 ```
 
-The last part of this analysis will consist on a regression analysis. To see if there's a correlation between the genre of movie and the revenue of those genre. 
-
-```{r}
-library(ggplot2)
-
-ggplot(df_clean, aes(total_gross)) +
-  geom_histogram(bins = 15) +
-  scale_x_continuous(labels = scales::label_number_si()) +
-  facet_wrap(vars(genre))
-```
-
-```{r}
-library(ggplot2)
-
-ggplot(df_clean) +
-  aes(x = genre, y = total_gross, color = genre) +
-  geom_jitter() +
-   scale_y_continuous(labels = scales::label_number_si()) +
-  theme(legend.position = "none")
-```
-
-add a section about (https://statsandr.com/blog/anova-in-r/) --> anova to see if there's a difference between the mean of groups 
-
-```{r}
-model <- lm(total_gross ~ genre, data = df_clean)
-anova(model)
-```
 # Conclusion
 
 # References
